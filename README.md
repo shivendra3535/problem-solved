@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
 | [2294-minimum-time-to-complete-trips](https://github.com/shivendra3535/problem-solved/tree/master/2294-minimum-time-to-complete-trips) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
@@ -61,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
