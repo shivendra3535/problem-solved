@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/shivendra3535/problem-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/shivendra3535/problem-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 ## Sorting
@@ -162,5 +164,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
