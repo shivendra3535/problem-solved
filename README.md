@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/shivendra3535/problem-solved/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
+| [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
+| [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
 ## Sorting
 |  |
 | ------- |
