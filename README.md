@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/shivendra3535/problem-solved/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shivendra3535/problem-solved/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivendra3535/problem-solved/tree/master/0160-intersection-of-two-linked-lists) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/shivendra3535/problem-solved/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
 ## Memoization
 |  |
