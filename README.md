@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -139,13 +140,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
+| [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
+| [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Matrix
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
