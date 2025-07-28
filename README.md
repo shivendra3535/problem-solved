@@ -131,10 +131,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
 ## Matrix
 |  |
 | ------- |
