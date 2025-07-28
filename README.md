@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/shivendra3535/problem-solved/tree/master/0035-search-insert-position) |
+| [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
 ## Sorting
 |  |
@@ -130,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
