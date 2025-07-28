@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/shivendra3535/problem-solved/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/shivendra3535/problem-solved/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/shivendra3535/problem-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
@@ -136,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
+| [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/shivendra3535/problem-solved/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -208,4 +212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/shivendra3535/problem-solved/tree/master/0061-rotate-list) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
