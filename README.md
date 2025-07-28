@@ -180,12 +180,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivendra3535/problem-solved/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivendra3535/problem-solved/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shivendra3535/problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivendra3535/problem-solved/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/shivendra3535/problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/shivendra3535/problem-solved/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
