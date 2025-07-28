@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/shivendra3535/problem-solved/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/shivendra3535/problem-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/shivendra3535/problem-solved/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
