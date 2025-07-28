@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/shivendra3535/problem-solved/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -256,4 +258,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
