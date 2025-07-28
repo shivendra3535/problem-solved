@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/shivendra3535/problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/shivendra3535/problem-solved/tree/master/0061-rotate-list) |
 | [0234-palindrome-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0234-palindrome-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0237-delete-node-in-a-linked-list) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Monotonic Stack
 |  |
