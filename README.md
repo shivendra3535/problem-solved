@@ -122,4 +122,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
