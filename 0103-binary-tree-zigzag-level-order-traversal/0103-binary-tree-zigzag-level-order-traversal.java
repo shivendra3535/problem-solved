@@ -19,12 +19,13 @@ class Solution {
         List<List<Integer>> result= new ArrayList<>();
         queue.offer(root);
         if(root==null)return result;
-        int flag=0;
+        boolean flag=true;
         while(!queue.isEmpty()){
             int levelNum= queue.size();
-            List<Integer> levelNodes= new ArrayList<>();
+            Deque<Integer> levelNodes = new LinkedList<>();
             for(int i=0; i<levelNum; i++){
                 TreeNode node= queue.poll();
+                int index= flag?i:levelNum-1-i;
                 if(node.left!=null)
                 {
                     queue.offer(node.left);
@@ -32,17 +33,14 @@ class Solution {
                 if(node.right != null){
                     queue.offer(node.right);
                 }
-                levelNodes.add(node.val);
+                if(flag){
+                    levelNodes.addLast(node.val);
+                } else {
+                    levelNodes.addFirst(node.val);
+                }
             }
-            if(flag==1){
-                Collections.reverse(levelNodes);
-                result.add(levelNodes);
-                flag=0;
-            }
-            else{
-                result.add(levelNodes);
-                flag=1;
-            }
+            flag=!flag;
+            result.add(new ArrayList<>(levelNodes));
         }
         return result;
     }
