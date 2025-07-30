@@ -25,7 +25,6 @@ class Solution {
             Deque<Integer> levelNodes = new LinkedList<>();
             for(int i=0; i<levelNum; i++){
                 TreeNode node= queue.poll();
-                int index= flag?i:levelNum-1-i;
                 if(node.left!=null)
                 {
                     queue.offer(node.left);
