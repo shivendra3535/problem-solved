@@ -14,23 +14,16 @@
  * }
  */
 class Solution {
-    public TreeNode bstConstructor(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd, Map<Integer, Integer> inMap){
-        if(preStart>preEnd || inStart>inEnd) return null;
-        TreeNode root= new TreeNode(preorder[preStart]);
-        int inRootIndex=inMap.get(root.val);
-        int numLeft= inRootIndex- inStart;
-        root.left = bstConstructor(preorder, preStart + 1, preStart + numLeft, inorder, inStart, inRootIndex - 1, inMap);
-        root.right = bstConstructor(preorder, preStart + numLeft + 1, preEnd, inorder, inRootIndex + 1, inEnd, inMap);
-
+    public TreeNode bstConstructor(int[] preorder,int bound, int[]i){
+        if(i[0]==preorder.length || preorder[i[0]]>bound) return null;
+        TreeNode root= new TreeNode(preorder[i[0]++]);
+        root.left= bstConstructor(preorder,root.val, i);
+        root.right= bstConstructor(preorder,bound, i);
         return root;
     }
     public TreeNode bstFromPreorder(int[] preorder) {
-        Map<Integer, Integer> inMap= new HashMap<>();
-        int []inorder= preorder.clone();
-        Arrays.sort(inorder);
-        for(int i=0; i<preorder.length; i++){
-            inMap.put(inorder[i],i);
-        }
-        return bstConstructor(preorder,0,preorder.length-1,inorder,0,inorder.length-1,inMap);
+        int i[]= new int[1];
+        i[0]=0;
+        return bstConstructor(preorder,Integer.MAX_VALUE,i);
     }
 }
