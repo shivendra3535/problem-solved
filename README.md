@@ -89,6 +89,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -153,6 +154,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -173,6 +175,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0234-palindrome-linked-list) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -376,10 +379,19 @@
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Design
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
