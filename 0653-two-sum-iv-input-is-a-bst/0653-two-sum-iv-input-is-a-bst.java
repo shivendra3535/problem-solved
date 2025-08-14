@@ -14,8 +14,9 @@
  * }
  */
 class Solution {
+
     public boolean findTarget(TreeNode root, int k) {
-        List<Integer> inorder= new ArrayList<>();
+        Set<Integer> mapSet= new HashSet<>();
         Stack<TreeNode> stack= new Stack<>();
         TreeNode cur=root;
         while(true){
@@ -26,17 +27,10 @@ class Solution {
             else{
                 if(stack.isEmpty())break;
                 cur=stack.pop();
-                inorder.add(cur.val);
+                int compliment=k-cur.val;
+                if(mapSet.contains(compliment)) return true;
+                mapSet.add(cur.val);
                 cur=cur.right;
-            }
-        }
-        int left=0;
-        int right=inorder.size()-1;
-        while(left<right){
-            if(inorder.get(left)+inorder.get(right) == k) return true;
-            else if(inorder.get(left)+inorder.get(right) < k) left++;
-            else{
-                right--;
             }
         }
         return false;
