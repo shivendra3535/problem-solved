@@ -36,6 +36,7 @@
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
@@ -123,6 +124,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -144,6 +146,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivendra3535/problem-solved/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
@@ -331,6 +334,7 @@
 | [0048-rotate-image](https://github.com/shivendra3535/problem-solved/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 ## Memoization
 |  |
 | ------- |
@@ -386,6 +390,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 ## Combinatorics
 |  |
