@@ -44,6 +44,7 @@
 | [0485-max-consecutive-ones](https://github.com/shivendra3535/problem-solved/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
@@ -151,6 +152,7 @@
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivendra3535/problem-solved/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
@@ -224,6 +226,7 @@
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -342,6 +345,7 @@
 | [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
+| [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 ## Memoization
