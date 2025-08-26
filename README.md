@@ -32,6 +32,7 @@
 | [0118-pascals-triangle](https://github.com/shivendra3535/problem-solved/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shivendra3535/problem-solved/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -125,6 +126,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivendra3535/problem-solved/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
@@ -150,6 +152,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivendra3535/problem-solved/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/shivendra3535/problem-solved/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
@@ -344,6 +347,7 @@
 | [0048-rotate-image](https://github.com/shivendra3535/problem-solved/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
+| [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
@@ -403,6 +407,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 ## Combinatorics
