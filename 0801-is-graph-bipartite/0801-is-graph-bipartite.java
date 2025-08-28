@@ -8,7 +8,7 @@ class Pair {
 }
 
 class Solution {
-    public boolean bfs(int [][]graph, int node, boolean vis[], int colors[]) {
+    /* public boolean bfs(int [][]graph, int node, boolean vis[], int colors[]) {
         Queue<Pair> queue = new LinkedList<>();
         vis[node] = true;
         colors[node] = 0; // start with color 0
@@ -31,6 +31,20 @@ class Solution {
             }
         }
         return true;
+    } */
+    public boolean dfs(int graph[][],int node,int color,boolean vis[], int colors[]){
+        vis[node]=true;
+        colors[node]=color;
+        int nextColor=1-color;
+        for(int a: graph[node]){
+            if(!vis[a]){
+                if(!dfs(graph,a,nextColor,vis,colors)) return false;
+            }
+            else if(colors[a]==color){
+                return false;
+            }
+        }
+        return true;
     }
 
     public boolean isBipartite(int[][] graph) {
@@ -41,7 +55,7 @@ class Solution {
 
         for (int i = 0; i < V; i++) {
             if (!vis[i]) {
-                if (!bfs(graph, i, vis, colors)) {
+                if (!dfs(graph, i,0, vis, colors)) {
                     return false;
                 }
             }
