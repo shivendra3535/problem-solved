@@ -1,44 +1,39 @@
 class Solution {
-    public boolean dfs(List<List<Integer>> adj,int node, boolean vis[], boolean pathVis[],boolean safe[]){
-        vis[node]=true;
-        pathVis[node]=true;
-        for(int a:adj.get(node)){
-            if(!vis[a]){
-                if(dfs(adj,a,vis,pathVis,safe)) return true;
-            }
-            else if(pathVis[a]){
-                return true;
-            }
-        }
-        safe[node]=true;
-        pathVis[node]=false;
-        return false;
-    }
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        int V=graph.length;
-        List<List<Integer>> adj= new ArrayList<>();
-        for(int i=0; i< V; i++){
-            adj.add(new ArrayList<>());
+        List<List<Integer>> reverseAdj= new ArrayList<>();
+        int V= graph.length;
+        int indegree[]= new int[V];
+        for(int i=0; i<V; i++){
+            reverseAdj.add(new ArrayList<>());
         }
         for(int i=0; i<V; i++){
-            for(int a:graph[i]){
-                adj.get(i).add(a);
+            for(int a: graph[i]){
+                reverseAdj.get(a).add(i);
+                indegree[i]++;
             }
         }
-        boolean vis[]= new boolean[V];
-        boolean pathVis[]=new boolean[V];
-        boolean safe[]= new boolean[V];
+        Queue<Integer> queue= new LinkedList<>();
+        Stack<Integer> stack= new Stack<>();
         for(int i=0; i<V; i++){
-            if(!vis[i]){
-                boolean b=dfs(adj,i,vis,pathVis,safe);
+            if(indegree[i]==0){
+                queue.offer(i);
             }
         }
-        List<Integer> ans= new ArrayList<>();
-        for(int i=0; i<V; i++){
-            if(safe[i]){
-                ans.add(i);
+        while(!queue.isEmpty()){
+            int cur= queue.poll();
+            stack.push(cur);
+            for(int a: reverseAdj.get(cur)){
+                indegree[a]--;
+                if(indegree[a]==0){
+                    queue.offer(a);
+                }            
             }
         }
-        return ans;
+        List<Integer> eSafe= new ArrayList<>();
+        while(!stack.isEmpty()){
+            eSafe.add(stack.pop());
+        }
+        Collections.sort(eSafe);
+        return eSafe;
     }
 }
