@@ -6,6 +6,9 @@ class Solution {
                 arr[i+1]=arr[j];
                 i++;
             }
+            else{
+                arr[j]=0;
+            }
         }
         return i+1;
     }
