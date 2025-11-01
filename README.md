@@ -39,6 +39,7 @@
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/shivendra3535/problem-solved/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
@@ -74,6 +75,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
@@ -272,6 +274,7 @@
 | [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivendra3535/problem-solved/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -336,6 +339,7 @@
 | [0056-merge-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/shivendra3535/problem-solved/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -349,6 +353,7 @@
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/shivendra3535/problem-solved/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -384,6 +389,7 @@
 | ------- |
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 ## Binary Indexed Tree
 |  |
