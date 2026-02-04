@@ -1,27 +1,24 @@
 class Solution {
-    public void swap(int a, int b,int nums[]){
-        int c= nums[a];
-        nums[a]=nums[b];
-        nums[b]=c;
+    public void swap(int nums[],int i, int j){
+        int temp=nums[i];
+        nums[i]=nums[j];
+        nums[j]=temp;
     }
-    private void recurPermute(int index, int[] nums, List < List < Integer >> ans){
+    public void permute(int []nums, int index, List<List<Integer>> res){
         if(index==nums.length){
-            List<Integer> ds= new ArrayList<>();
-            for(int i=0; i<nums.length; i++){
-                ds.add(nums[i]);
-            }
-            ans.add(ds);
-            return;
+            List<Integer> numList = Arrays.stream(nums).boxed().collect(Collectors.toList());
+            res.add(new ArrayList<>(numList));
         }
+
         for(int i=index; i<nums.length; i++){
-            swap(i,index,nums);
-            recurPermute(index+1,nums,ans);
-            swap(i,index, nums);
+            swap(nums,i,index);
+            permute(nums,index+1,res);
+            swap(nums,i,index);
         }
     }
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> ans= new ArrayList<>();
-        recurPermute(0,nums,ans);
-        return ans;
+        List<List<Integer>> res= new ArrayList<>();
+        permute(nums,0,res);
+        return res;
     }
 }
