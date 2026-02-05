@@ -233,6 +233,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shivendra3535/problem-solved/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0022-generate-parentheses) |
+| [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
@@ -274,6 +275,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/shivendra3535/problem-solved/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
@@ -293,6 +295,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shivendra3535/problem-solved/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
 ## Two Pointers
 |  |
