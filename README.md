@@ -40,6 +40,7 @@
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/shivendra3535/problem-solved/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
+| [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
@@ -337,6 +338,7 @@
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
+| [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
 ## Sorting
 |  |
