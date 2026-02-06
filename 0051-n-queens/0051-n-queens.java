@@ -1,20 +1,6 @@
 class Solution {
-    public boolean isSafe(char [][]board, int row, int col){
-        for(int i=0; i<board.length; i++){
-            if(board[row][i]=='Q') return false;
-        }
-        for(int i=0; i<board.length; i++){
-            if(board[i][col]=='Q') return false;
-        }
-        for(int i=row,j=col; i>=0 && j>=0; i--,j--){
-            if(board[i][j]=='Q') return false;
-        }
-        for(int i=row,j=col; i>=0 && j<board.length; i--,j++){
-            if(board[i][j]=='Q') return false;
-        }
-        return true;
-    }
-    public void solveNQueens(char [][]board, int row, int n, List<List<String>> res){
+    
+    public void solveNQueens(char [][]board, int row, int n, List<List<String>> res, boolean []checkCol, boolean [] checkLeftDiag, boolean []checkRightDiag){
         if(row==n){
             List<String> temp= new ArrayList<>();
             for(int i=0; i<n; i++){
@@ -25,10 +11,18 @@ class Solution {
         }
 
         for(int j=0; j<n; j++){
-            if(isSafe(board,row,j)){
+            int leftIndex=row+j;
+            int rightIndex=(n-1)+(row-j);
+            if(!checkCol[j] && !checkLeftDiag[leftIndex] && !checkRightDiag[rightIndex]){
                 board[row][j]='Q';
-                solveNQueens(board,row+1,n,res);
+                checkCol[j]=true;
+                checkLeftDiag[leftIndex]=true;
+                checkRightDiag[rightIndex]=true;
+                solveNQueens(board,row+1,n,res,checkCol, checkLeftDiag, checkRightDiag);
                 board[row][j]='.';
+                checkCol[j]=false;
+                checkLeftDiag[leftIndex]=false;
+                checkRightDiag[rightIndex]=false;
             }
         }
     }
@@ -38,7 +32,10 @@ class Solution {
             Arrays.fill(board[i],'.');
         }
         List<List<String>> res= new ArrayList<>();
-        solveNQueens(board,0,n,res);
+        boolean checkCol[]= new boolean[n];
+        boolean checkLeftDiag[]= new boolean[2*n-1];
+        boolean checkRightDiag[]= new boolean[2*n-1];
+        solveNQueens(board,0,n,res, checkCol, checkLeftDiag, checkRightDiag);
         return res;
     }
 }
