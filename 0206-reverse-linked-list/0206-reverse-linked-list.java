@@ -25,7 +25,7 @@ class Solution {
         ListNode before = null;
         ListNode after;
         
-        for (int i = 1; i <=length; i++) {
+        while(temp!=null){
             after = temp.next;
             temp.next = before;
             before = temp;
