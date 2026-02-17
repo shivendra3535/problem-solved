@@ -10,27 +10,30 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        ArrayList<Integer> stacks= new ArrayList<Integer>();
-        int top=-1;
+        if(head==null || head.next==null) return true;
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        ListNode curr=slow;
+        ListNode before=null;
+        ListNode after;
+        while(curr!=null){
+            after=curr.next;
+            curr.next=before;
+            before=curr;
+            curr=after;
+        }
         ListNode temp=head;
-        while(temp!=null)
-        {
-            
-            stacks.add(temp.val);
-            top++;
-            temp=temp.next;
-        }  
-        temp=head;
-        while(temp!=null)
-        {
-            if(temp.val!=stacks.get(top))
-            {
+        while(before!=null){
+            if(before.val!=temp.val){
                 return false;
             }
-            top--;
+            before=before.next;
             temp=temp.next;
         }
-        return true;              
-        }
-
+        return true;
+    }
 }
