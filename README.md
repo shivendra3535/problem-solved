@@ -19,6 +19,7 @@
 | [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/shivendra3535/problem-solved/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/shivendra3535/problem-solved/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/shivendra3535/problem-solved/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/shivendra3535/problem-solved/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
@@ -238,6 +239,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/shivendra3535/problem-solved/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0022-generate-parentheses) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shivendra3535/problem-solved/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0049-group-anagrams](https://github.com/shivendra3535/problem-solved/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
@@ -283,6 +285,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/shivendra3535/problem-solved/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shivendra3535/problem-solved/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0037-sudoku-solver](https://github.com/shivendra3535/problem-solved/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/shivendra3535/problem-solved/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -370,6 +373,7 @@
 | ------- |
 | [0015-3sum](https://github.com/shivendra3535/problem-solved/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivendra3535/problem-solved/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/shivendra3535/problem-solved/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/shivendra3535/problem-solved/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/shivendra3535/problem-solved/tree/master/0148-sort-list) |
