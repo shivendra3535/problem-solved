@@ -61,6 +61,7 @@
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
+| [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -265,6 +266,7 @@
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -355,6 +357,7 @@
 | [0148-sort-list](https://github.com/shivendra3535/problem-solved/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 ## Backtracking
 |  |
@@ -548,10 +551,12 @@
 ## Queue
 |  |
 | ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 ## Heap (Priority Queue)
 |  |
