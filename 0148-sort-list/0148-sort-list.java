@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode merge(ListNode l1, ListNode l2){
-        ListNode dummyNode= new ListNode(0);
+        ListNode dummyNode= new ListNode(-1);
         ListNode temp=dummyNode;
         while(l1!=null && l2!=null){
             if(l1.val<=l2.val){
@@ -42,8 +42,8 @@ class Solution {
             fast=fast.next.next;
         }
         prev.next=null;
-        ListNode left =sortList(head);
-        ListNode right =sortList(slow);
-        return merge(left,right);
+        ListNode left=sortList(head);
+        ListNode right=sortList(slow);
+        return merge(left, right);
     }
 }
