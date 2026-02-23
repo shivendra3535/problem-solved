@@ -360,6 +360,7 @@
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/shivendra3535/problem-solved/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -415,6 +416,7 @@
 | [0189-rotate-array](https://github.com/shivendra3535/problem-solved/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 ## Recursion
 |  |
 | ------- |
@@ -584,4 +586,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shivendra3535/problem-solved/tree/master/0014-longest-common-prefix) |
+## Brainteaser
+|  |
+| ------- |
+| [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
