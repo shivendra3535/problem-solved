@@ -252,6 +252,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/shivendra3535/problem-solved/tree/master/0151-reverse-words-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/shivendra3535/problem-solved/tree/master/0290-word-pattern) |
+| [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
@@ -307,6 +308,7 @@
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/shivendra3535/problem-solved/tree/master/0290-word-pattern) |
+| [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
@@ -328,6 +330,7 @@
 | [0030-substring-with-concatenation-of-all-words](https://github.com/shivendra3535/problem-solved/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/shivendra3535/problem-solved/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivendra3535/problem-solved/tree/master/0209-minimum-size-subarray-sum) |
+| [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
 ## Two Pointers
