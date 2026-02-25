@@ -374,6 +374,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/shivendra3535/problem-solved/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
+| [0191-number-of-1-bits](https://github.com/shivendra3535/problem-solved/tree/master/0191-number-of-1-bits) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
@@ -458,6 +459,7 @@
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/shivendra3535/problem-solved/tree/master/0136-single-number) |
+| [0191-number-of-1-bits](https://github.com/shivendra3535/problem-solved/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
