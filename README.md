@@ -422,6 +422,7 @@
 | [0002-add-two-numbers](https://github.com/shivendra3535/problem-solved/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/shivendra3535/problem-solved/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/shivendra3535/problem-solved/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/shivendra3535/problem-solved/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/shivendra3535/problem-solved/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/shivendra3535/problem-solved/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
@@ -464,6 +465,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/shivendra3535/problem-solved/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/shivendra3535/problem-solved/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivendra3535/problem-solved/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/shivendra3535/problem-solved/tree/master/0136-single-number) |
