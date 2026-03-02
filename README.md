@@ -67,6 +67,7 @@
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -96,6 +97,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shivendra3535/problem-solved/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shivendra3535/problem-solved/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
