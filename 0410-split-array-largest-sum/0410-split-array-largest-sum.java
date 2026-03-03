@@ -1,35 +1,32 @@
 class Solution {
-    public static boolean isPossible(int arr[], int mid, int k){
-        int currentSum=0;
-        int subarrayCount=1;
-        for(int sum: arr){
-            if(sum > mid) return false;
-            if(currentSum+sum <= mid){
-                currentSum+=sum;
+    public boolean isPossible(int nums[],int k, int mid){
+        int cnt=1;
+        int curSum=0;
+        for(int num:nums){
+            if(curSum+num<=mid){
+                curSum+=num;
             }
             else{
-                subarrayCount++;
-                currentSum=sum;
-                if(subarrayCount>k)return false;
+                cnt++;
+                curSum=num;
+                if(cnt>k) return false;
             }
         }
-        return true;
+        return cnt<=k;
     }
-    public int splitArray(int[] arr, int k) {
-        int max= Integer.MIN_VALUE;
-        int sum=0;
-        for(int i: arr){
-            max=Math.max(max, i);
-            sum=sum+i;
+    public int splitArray(int[] nums, int k) {
+        int low= Integer.MIN_VALUE;
+        int high=0;
+        for(int num: nums){
+            low=Math.max(low,num);
+            high+=num;
         }
-        int low=max;
-        int high=sum;
         int ans=-1;
         while(low<=high){
-            int mid=(low+high)/2;
-            if(isPossible(arr, mid , k)){
-               ans=mid;
-               high=mid-1;
+            int mid=(low+high)>>1;
+            if(isPossible(nums,k,mid)){
+                ans=mid;
+                high=mid-1;
             }
             else{
                 low=mid+1;
