@@ -80,6 +80,7 @@
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/shivendra3535/problem-solved/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2294-minimum-time-to-complete-trips](https://github.com/shivendra3535/problem-solved/tree/master/2294-minimum-time-to-complete-trips) |
+| [2643-row-with-maximum-ones](https://github.com/shivendra3535/problem-solved/tree/master/2643-row-with-maximum-ones) |
 ## Binary Search
 |  |
 | ------- |
@@ -468,6 +469,7 @@
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [2643-row-with-maximum-ones](https://github.com/shivendra3535/problem-solved/tree/master/2643-row-with-maximum-ones) |
 ## Memoization
 |  |
 | ------- |
