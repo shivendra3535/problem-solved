@@ -49,6 +49,7 @@
 | [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/shivendra3535/problem-solved/tree/master/0238-product-of-array-except-self) |
+| [0240-search-a-2d-matrix-ii](https://github.com/shivendra3535/problem-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/shivendra3535/problem-solved/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
@@ -91,6 +92,7 @@
 | [0162-find-peak-element](https://github.com/shivendra3535/problem-solved/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivendra3535/problem-solved/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivendra3535/problem-solved/tree/master/0209-minimum-size-subarray-sum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/shivendra3535/problem-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
@@ -386,6 +388,7 @@
 | [0148-sort-list](https://github.com/shivendra3535/problem-solved/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/shivendra3535/problem-solved/tree/master/0191-number-of-1-bits) |
+| [0240-search-a-2d-matrix-ii](https://github.com/shivendra3535/problem-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
@@ -459,6 +462,7 @@
 | [0074-search-a-2d-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
+| [0240-search-a-2d-matrix-ii](https://github.com/shivendra3535/problem-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
