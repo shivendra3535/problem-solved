@@ -5,24 +5,39 @@ class Solution {
         int low=0;
         int high=n-1;
         while(low<=high){
-            int mid=low+(high-low)/2;
-            int maxEle=mat[0][mid];
+            int mid=(low+high)>>1;
             int row=0;
+            int maxEle=Integer.MIN_VALUE;
             for(int i=0; i<m; i++){
                 if(maxEle<mat[i][mid]){
                     maxEle=mat[i][mid];
                     row=i;
                 }
             }
-            int left = (mid > 0) ? mat[row][mid - 1] : -1;
-            int right = (mid < n - 1) ? mat[row][mid + 1] : -1;
+            int left;
+            int right;
+            if(mid>0){
+                left=mat[row][mid-1];
+            }
+            else{
+                left=-1;
+            }
 
-            if (maxEle > left && maxEle > right) {
-                return new int[]{row, mid};
-            } else if (left > maxEle) {
-                high = mid - 1;
-            } else {
-                low = mid + 1;
+            if(mid<n-1){
+                right=mat[row][mid+1];
+            }
+            else{
+                right=-1;
+            }
+
+            if(maxEle>left && maxEle>right){
+                return new int[]{row,mid};
+            }
+            else if(left>maxEle){
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
             }
         }
         return new int[]{-1,-1};
