@@ -451,6 +451,7 @@
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
 | [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 ## Recursion
 |  |
@@ -464,6 +465,7 @@
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
 ## Matrix
 |  |
 | ------- |
