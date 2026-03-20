@@ -58,6 +58,7 @@
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/shivendra3535/problem-solved/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
@@ -251,6 +252,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/shivendra3535/problem-solved/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## String
@@ -333,6 +335,7 @@
 | [0290-word-pattern](https://github.com/shivendra3535/problem-solved/tree/master/0290-word-pattern) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -543,6 +546,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shivendra3535/problem-solved/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Doubly-Linked List
 |  |
