@@ -23,15 +23,15 @@ class Solution {
         }
     }
     public void letterCombinations(int index,String digits,String s,List<String> res){
-         if(index==digits.length()){
+        if(index==digits.length()){
             res.add(s);
             return;
-         }
-         for(char c: map(digits.charAt(index))){
+        }
+        for(char c : map(digits.charAt(index))){
             String temp= new String(s);
             temp+=c;
             letterCombinations(index+1,digits,temp,res);
-         }
+        }
     }
     public List<String> letterCombinations(String digits) {
         List<String> res= new ArrayList<>();
