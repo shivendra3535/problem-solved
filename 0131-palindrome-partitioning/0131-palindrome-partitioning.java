@@ -9,23 +9,25 @@ class Solution {
         }
         return true;
     }
-    public void partition(String s, int index, List<List<String>>res, List<String> ds){
+    public void partition(String s, int index, List<String> ds, List<List<String>> res){
         if(index>=s.length()){
             res.add(new ArrayList<>(ds));
+            return;
         }
 
         for(int i=index; i<s.length(); i++){
             if(isPalindrome(s,index,i)){
-                ds.add(s.substring(index,i+1));
-                partition(s,i+1,res,ds);
+                String pt= s.substring(index,i+1);
+                ds.add(pt);
+                partition(s,i+1,ds,res);
                 ds.remove(ds.size()-1);
             }
         }
     }
     public List<List<String>> partition(String s) {
-        List<List<String>>res= new ArrayList<>();
+        List<List<String>> res= new ArrayList<>();
         List<String> ds= new ArrayList<>();
-        partition(s,0,res,ds);
+        partition(s,0,ds,res);
         return res;
     }
 }
