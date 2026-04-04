@@ -269,6 +269,7 @@
 | [0503-next-greater-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0503-next-greater-element-ii) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/shivendra3535/problem-solved/tree/master/0735-asteroid-collision) |
+| [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/shivendra3535/problem-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
@@ -572,6 +573,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/shivendra3535/problem-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/shivendra3535/problem-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
@@ -622,6 +624,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/shivendra3535/problem-solved/tree/master/0225-implement-stack-using-queues) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
+| [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
 ## Iterator
 |  |
 | ------- |
@@ -676,4 +679,8 @@
 |  |
 | ------- |
 | [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
