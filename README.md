@@ -148,6 +148,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -184,6 +185,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -211,6 +213,7 @@
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shivendra3535/problem-solved/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/shivendra3535/problem-solved/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -251,6 +254,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -304,6 +308,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/shivendra3535/problem-solved/tree/master/0151-reverse-words-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/shivendra3535/problem-solved/tree/master/0290-word-pattern) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/shivendra3535/problem-solved/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
@@ -639,6 +644,7 @@
 | [0155-min-stack](https://github.com/shivendra3535/problem-solved/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/shivendra3535/problem-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/shivendra3535/problem-solved/tree/master/0225-implement-stack-using-queues) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
 ## Iterator
