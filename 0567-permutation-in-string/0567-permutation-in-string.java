@@ -12,22 +12,21 @@ class Solution {
         for(int i=0; i<26; i++){
             if(freq1[i]>0) required++;
         }
+
+        int curMatch=0;
         int right=0;
         int left=0;
-        int curMatch=0;
-        while(right<n){
+        while(right<s1.length()){
             freq2[s2.charAt(right)-'a']++;
             if(freq2[s2.charAt(right)-'a']==freq1[s2.charAt(right)-'a']) curMatch++;
             right++;
         }
         if(curMatch==required) return true;
-        while(right<m){
-            int index=s2.charAt(right)-'a';
-            freq2[index]++;
-            if(freq2[index]==freq1[index]) curMatch++;
-            int index1=s2.charAt(left)-'a';
-            if(freq1[index1]==freq2[index1]) curMatch--;
-            freq2[index1]--;
+        while(right<s2.length()){
+            freq2[s2.charAt(right)-'a']++;
+            if(freq2[s2.charAt(right)-'a']==freq1[s2.charAt(right)-'a']) curMatch++;
+            if(freq2[s2.charAt(left)-'a']==freq1[s2.charAt(left)-'a']) curMatch--;
+            freq2[s2.charAt(left)-'a']--;
             if(curMatch==required) return true;
             right++;
             left++;
