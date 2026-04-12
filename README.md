@@ -86,6 +86,7 @@
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1109-corporate-flight-bookings](https://github.com/shivendra3535/problem-solved/tree/master/1109-corporate-flight-bookings) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shivendra3535/problem-solved/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1572-matrix-diagonal-sum](https://github.com/shivendra3535/problem-solved/tree/master/1572-matrix-diagonal-sum) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shivendra3535/problem-solved/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -392,6 +393,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivendra3535/problem-solved/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
@@ -406,6 +408,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivendra3535/problem-solved/tree/master/1004-max-consecutive-ones-iii) |
 | [1109-corporate-flight-bookings](https://github.com/shivendra3535/problem-solved/tree/master/1109-corporate-flight-bookings) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 ## Sliding Window
 |  |
 | ------- |
@@ -420,6 +423,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivendra3535/problem-solved/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivendra3535/problem-solved/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
 ## Two Pointers
@@ -519,6 +523,7 @@
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
 | [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 ## Recursion
