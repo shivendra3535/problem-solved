@@ -13,24 +13,38 @@
  *     }
  * }
  */
+class BSTIterator{
+    Stack<TreeNode> st= new Stack<>();
+    boolean forward;
+    BSTIterator(TreeNode root,boolean forward){
+        this.forward=forward;
+        pushAll(root);
+    }
+    public void pushAll(TreeNode root){
+        while(root!=null){
+            st.push(root);
+            if(forward) root=root.left;
+            else root=root.right;
+        }
+    }
+    public int next(){
+        TreeNode node=st.pop();
+        if(forward) pushAll(node.right);
+        else pushAll(node.left);
+        return node.val;
+    }
+}
 class Solution {
     public boolean findTarget(TreeNode root, int k) {
-        Stack<TreeNode> st= new Stack<>();
-        HashSet<Integer> set= new HashSet<>();
-        TreeNode curr=root;
-        while(true){
-            if(curr!=null){
-                st.push(curr);
-                curr=curr.left;
-            }
-            else{
-                if(st.isEmpty()) break;
-                curr=st.pop();
-                int compliment=k-curr.val;
-                if(set.contains(compliment)) return true;
-                set.add(curr.val);
-                curr=curr.right;
-            }
+        if(root==null) return false;
+        BSTIterator l = new BSTIterator(root,true);
+        BSTIterator r = new BSTIterator(root,false);
+        int i=l.next();
+        int j=r.next();
+        while(i<j){
+            if(i+j==k) return true;
+            else if(i+j<k) i=l.next();
+            else j=r.next();
         }
         return false;
     }
