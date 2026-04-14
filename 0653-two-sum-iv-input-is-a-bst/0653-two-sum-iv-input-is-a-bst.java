@@ -14,23 +14,22 @@
  * }
  */
 class Solution {
-
     public boolean findTarget(TreeNode root, int k) {
-        Set<Integer> mapSet= new HashSet<>();
-        Stack<TreeNode> stack= new Stack<>();
-        TreeNode cur=root;
+        Stack<TreeNode> st= new Stack<>();
+        HashSet<Integer> set= new HashSet<>();
+        TreeNode curr=root;
         while(true){
-            if(cur!=null){
-                stack.push(cur);
-                cur=cur.left;
+            if(curr!=null){
+                st.push(curr);
+                curr=curr.left;
             }
             else{
-                if(stack.isEmpty())break;
-                cur=stack.pop();
-                int compliment=k-cur.val;
-                if(mapSet.contains(compliment)) return true;
-                mapSet.add(cur.val);
-                cur=cur.right;
+                if(st.isEmpty()) break;
+                curr=st.pop();
+                int compliment=k-curr.val;
+                if(set.contains(compliment)) return true;
+                set.add(curr.val);
+                curr=curr.right;
             }
         }
         return false;
