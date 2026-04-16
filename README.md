@@ -97,6 +97,7 @@
 | [1572-matrix-diagonal-sum](https://github.com/shivendra3535/problem-solved/tree/master/1572-matrix-diagonal-sum) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shivendra3535/problem-solved/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1901-find-a-peak-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/1901-find-a-peak-element-ii) |
 | [1991-find-the-middle-index-in-array](https://github.com/shivendra3535/problem-solved/tree/master/1991-find-the-middle-index-in-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
@@ -339,6 +340,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Dynamic Programming
 |  |
