@@ -14,15 +14,14 @@
  * }
  */
 class Solution {
-    private TreeNode prev=null;
-    private TreeNode first=null;
-    private TreeNode middle=null;
-    private TreeNode last=null;
-
-    public void inorder(TreeNode root){
-        if(root==null) return; 
-        inorder(root.left);
-        if( prev!=null && root.val<prev.val){
+    TreeNode first;
+    TreeNode middle;
+    TreeNode last;
+    TreeNode prev= new TreeNode(Integer.MIN_VALUE);
+    public void defect(TreeNode root){
+        if(root==null) return;
+        defect(root.left);
+        if(prev!=null && prev.val>root.val){
             if(first==null){
                 first=prev;
                 middle=root;
@@ -32,19 +31,19 @@ class Solution {
             }
         }
         prev=root;
-        inorder(root.right);
+        defect(root.right);
     }
     public void recoverTree(TreeNode root) {
-        inorder(root);
+        defect(root);
         if(first!=null && last!=null){
-            int t=first.val;
+            int temp=first.val;
             first.val=last.val;
-            last.val=t;
+            last.val=temp;
         }
         else{
-            int t=first.val;
+            int temp=first.val;
             first.val=middle.val;
-            middle.val=t;
+            middle.val=temp;
         }
     }
 }
