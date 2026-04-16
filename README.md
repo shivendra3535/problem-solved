@@ -98,6 +98,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shivendra3535/problem-solved/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1901-find-a-peak-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/1901-find-a-peak-element-ii) |
 | [1991-find-the-middle-index-in-array](https://github.com/shivendra3535/problem-solved/tree/master/1991-find-the-middle-index-in-array) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
@@ -341,6 +342,7 @@
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/shivendra3535/problem-solved/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/shivendra3535/problem-solved/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -414,6 +416,7 @@
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivendra3535/problem-solved/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
@@ -600,6 +603,7 @@
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -679,6 +683,7 @@
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
+| [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/shivendra3535/problem-solved/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/shivendra3535/problem-solved/tree/master/3005-count-elements-with-maximum-frequency) |
