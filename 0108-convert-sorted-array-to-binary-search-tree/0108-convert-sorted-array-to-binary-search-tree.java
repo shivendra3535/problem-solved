@@ -14,12 +14,12 @@
  * }
  */
 class Solution {
-    public TreeNode createBST(int nums[],int numStart, int numEnd){
-        if(numStart>numEnd)return null;
-        int mid=(numStart+numEnd)/2;
+    public TreeNode createBST(int nums[], int numsStart, int numsEnd){
+        if(numsStart>numsEnd) return null;
+        int mid=(numsStart+numsEnd)/2;
         TreeNode root= new TreeNode(nums[mid]);
-        root.left= createBST(nums,numStart,mid-1);
-        root.right=createBST(nums,mid+1,numEnd);
+        root.left=createBST(nums,numsStart,mid-1);
+        root.right=createBST(nums,mid+1,numsEnd);
         return root;
     }
     public TreeNode sortedArrayToBST(int[] nums) {
