@@ -13,8 +13,7 @@ class Solution {
         }
         res.add(newInterval);
         while(i<n){
-            res.add(intervals[i]);
-            i++;
+            res.add(intervals[i++]);
         }
         return res.toArray(new int[0][]);
     }
