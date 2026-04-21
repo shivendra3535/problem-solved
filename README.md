@@ -180,6 +180,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
 ## Depth-First Search
@@ -220,6 +221,7 @@
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -292,6 +294,7 @@
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
 ## Stack
@@ -369,6 +372,7 @@
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Greedy
 |  |
@@ -709,6 +713,7 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Design
 |  |
