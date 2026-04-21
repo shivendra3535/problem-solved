@@ -2,15 +2,15 @@ class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals,(a,b)->Integer.compare(a[0],b[0]));
         List<int[]> res= new ArrayList<>();
-        int mergeInterval[]=intervals[0];
-        res.add(mergeInterval);
+        int newInterval[]=intervals[0];
+        res.add(newInterval);
         for(int interval[]: intervals){
-            if(interval[0]<=mergeInterval[1]){
-                mergeInterval[1]=Math.max(interval[1],mergeInterval[1]);
+            if(interval[0]<=newInterval[1]){
+                newInterval[1]= Math.max(newInterval[1],interval[1]);
             }
             else{
-                mergeInterval=interval;
-                res.add(mergeInterval);
+                newInterval=interval;
+                res.add(newInterval);
             }
         }
         return res.toArray(new int[0][]);
