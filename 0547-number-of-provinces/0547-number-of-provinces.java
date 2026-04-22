@@ -1,10 +1,9 @@
 class Solution {
-    public void dfs(int[][] isConnected,int node,boolean vis[]){
+    public void dfs(int [][]isConnected, boolean vis[], int node){
         vis[node]=true;
-        for(int j=0; j<isConnected.length; j++){
-            if( isConnected[node][j]==1 && !vis[j]){
-                vis[j]=true;
-                dfs(isConnected,j,vis);
+        for(int j=0; j<isConnected[0].length; j++){
+            if(isConnected[node][j]==1 && !vis[j]){
+                dfs(isConnected,vis,j);
             }
         }
     }
@@ -12,12 +11,12 @@ class Solution {
         int size=isConnected.length;
         boolean vis[]= new boolean[size];
         int cnt=0;
-        for(int i=0; i<isConnected.length; i++){
-                if(vis[i]==false){
-                    dfs(isConnected,i,vis);
-                    cnt++;
-                }
+        for(int i=0; i<size; i++){
+            if(!vis[i]){
+                dfs(isConnected,vis,i);
+                cnt++;
             }
+        }
         return cnt;
     }
 }
