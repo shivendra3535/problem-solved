@@ -785,4 +785,12 @@
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/shivendra3535/problem-solved/tree/master/0901-online-stock-span) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
