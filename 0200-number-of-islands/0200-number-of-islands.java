@@ -1,55 +1,83 @@
-class Pair{
-    int row;
-    int col;
-    Pair(int row, int col){
-        this.row=row;
-        this.col=col;
-    }
-}
-class Solution {
-    public void bfs(int ro,int co, boolean vis[][],char grid[][]){
-        Queue<Pair> queue= new LinkedList<>();
-        queue.offer(new Pair(ro,co));
-        while(!queue.isEmpty()){
-            Pair p=queue.poll();
-            int r=p.row;
-            int c=p.col;
-            //horizotal left neighbour
-            if(c > 0 && grid[r][c-1]=='1' && !vis[r][c-1]){
-                vis[r][c-1]=true;
-                queue.offer(new Pair(r,c-1));
-            }
-            //horizontal right neighbour
-            if(c<grid[0].length -1 && grid[r][c+1]=='1' && !vis[r][c+1]){
-                vis[r][c+1]=true;
-                queue.offer(new Pair(r,c+1));
-            }
-            //verical above neighbour
-            if(r>0 && grid[r-1][c]=='1' && !vis[r-1][c]){
-                vis[r-1][c]=true;
-                queue.offer(new Pair(r-1,c));
-            }
+import java.util.*;
 
-            //vertical below neighbour
-            if(r< grid.length -1 && grid[r+1][c]=='1' && !vis[r+1][c]){
-                vis[r+1][c]=true;
-                queue.offer(new Pair(r+1,c));
-            }
+class Solution {
+
+    class Pair {
+        int row;
+        int col;
+
+        Pair(int row, int col) {
+            this.row = row;
+            this.col = col;
         }
     }
-    public int numIslands(char[][] grid) {
-        int m=grid.length;
-        int n=grid[0].length;
-        boolean vis[][]= new boolean[m][n];
-        int cnt=0;
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(grid[i][j]=='1' && vis[i][j]==false){
-                   cnt++;
-                   bfs(i,j,vis,grid);
+
+    public void bfs(int row, int col, char[][] grid, boolean[][] vis) {
+
+        int n = grid.length;
+        int m = grid[0].length;
+
+        Queue<Pair> queue = new LinkedList<>();
+
+        vis[row][col] = true;
+        queue.offer(new Pair(row, col));
+
+        int[][] dir = {
+            {0, -1},
+            {0, 1},
+            {-1, 0},
+            {1, 0}
+        };
+
+        while (!queue.isEmpty()) {
+
+            Pair node = queue.poll();
+
+            int r = node.row;
+            int c = node.col;
+
+            for (int[] d : dir) {
+
+                int nRow = r + d[0];
+                int nCol = c + d[1];
+
+                if (
+                    nRow >= 0 &&
+                    nRow < n &&
+                    nCol >= 0 &&
+                    nCol < m &&
+                    grid[nRow][nCol] == '1' &&
+                    !vis[nRow][nCol]
+                ) {
+                    vis[nRow][nCol] = true;
+                    queue.offer(new Pair(nRow, nCol));
                 }
             }
         }
+    }
+
+    public int numIslands(char[][] grid) {
+
+        if (grid == null || grid.length == 0)
+            return 0;
+
+        int n = grid.length;
+        int m = grid[0].length;
+
+        boolean[][] vis = new boolean[n][m];
+
+        int cnt = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+
+                if (grid[i][j] == '1' && !vis[i][j]) {
+                    cnt++;
+                    bfs(i, j, grid, vis);
+                }
+            }
+        }
+
         return cnt;
     }
 }
