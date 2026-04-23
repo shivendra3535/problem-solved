@@ -224,6 +224,7 @@
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -253,6 +254,7 @@
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
 | ------- |
@@ -792,8 +794,10 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 <!---LeetCode Topics End-->
