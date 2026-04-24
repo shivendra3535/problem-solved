@@ -3,16 +3,13 @@ class Solution {
         int n=s.length();
         int m=t.length();
         if(n!=m) return false;
-        int freq1[]= new int[26];
-        int freq2[]= new int[26];
-        for(char c: s.toCharArray()){
-            freq1[c-'a']++;
+        int freq[]= new int[26];
+        for(int i=0; i<n; i++){
+            freq[s.charAt(i)-'a']++;
+            freq[t.charAt(i)-'a']--;
         }
-        for(char c: t.toCharArray()){
-            freq2[c-'a']++;
-        }
-        for(char c: t.toCharArray()){
-            if(freq1[c-'a']!=freq2[c-'a']) return false;
+        for(int f: freq){
+            if(f!=0) return false;
         }
         return true;
     }
