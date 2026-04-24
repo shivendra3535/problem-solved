@@ -10,7 +10,6 @@ class Solution {
     public int orangesRotting(int[][] grid) {
         int n=grid.length;
         int m=grid[0].length;
-        boolean vis[][]= new boolean[n][m];
         Queue<Pair> queue= new LinkedList<>();
         int cnt=-1;
         int fresh=0;
@@ -18,7 +17,6 @@ class Solution {
             for(int j=0; j<m; j++){
                 if(grid[i][j]==2){
                     queue.offer(new Pair(i,j));
-                    vis[i][j]= true;
                 }
                 if(grid[i][j]==1) fresh++;
             }
@@ -34,10 +32,10 @@ class Solution {
                 for(int d[]: dir){
                     int nR=r+d[0];
                     int nC=c+d[1];
-                    if(nR>=0 && nC>=0 && nR<n && nC<m && grid[nR][nC]==1 && !vis[nR][nC]){
+                    if(nR>=0 && nC>=0 && nR<n && nC<m && grid[nR][nC]==1){
                         queue.offer(new Pair(nR,nC));
-                        vis[nR][nC]=true;
                         fresh--;
+                        grid[nR][nC]=2;
                     }
                 }
             }
