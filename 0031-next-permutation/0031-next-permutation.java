@@ -11,7 +11,7 @@ class Solution {
             Arrays.sort(nums);
             return;
         }
-        for(int i=nums.length-1; i>=index; i--){
+        for(int i=nums.length-1; i>=i; i--){
             if(nums[i]>nums[index]){
                 int temp=nums[i];
                 nums[i]=nums[index];
@@ -28,6 +28,5 @@ class Solution {
             left++;
             right--;
         }
-
     }
 }
