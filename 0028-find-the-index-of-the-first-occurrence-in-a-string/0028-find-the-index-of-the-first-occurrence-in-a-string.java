@@ -1,12 +1,11 @@
 class Solution {
     public int strStr(String haystack, String needle) {
-        if(!haystack.contains(needle)) return -1;
         int len=needle.length();
         char c=needle.charAt(0);
         for(int i=0; i<=haystack.length()-needle.length(); i++){
-            if(haystack.charAt(i)==c && haystack.substring(i,i+needle.length()).equals(needle)){
-                return i;
-            }
+            int j=0;
+            while(j<len && haystack.charAt(i+j)==needle.charAt(j)) j++;
+            if(j==len) return i;
         }
         return -1;
     }
