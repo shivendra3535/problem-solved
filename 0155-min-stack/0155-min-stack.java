@@ -1,9 +1,9 @@
 class MinStack {
     Queue<Integer> q;
-    Stack<Integer> minStack;
+    Stack<Integer> minSt;
     public MinStack() {
-        minStack= new Stack<>();
-        q=new LinkedList<>();
+        q= new LinkedList<>();
+        minSt= new Stack<>();
     }
     
     public void push(int val) {
@@ -13,28 +13,24 @@ class MinStack {
             q.offer(q.peek());
             q.poll();
         }
-
-        if(minStack.isEmpty() || val<=minStack.peek()){
-            minStack.push(val);
+        if(minSt.isEmpty() || minSt.peek()>=val){
+            minSt.push(val);
         }
     }
     
     public void pop() {
-        if(q.isEmpty()) return;
-
-        int removed = q.poll();
-
-        if(removed == minStack.peek()){
-            minStack.pop();
+        int val=q.poll();
+        if(minSt.peek()==val){
+            minSt.pop();
         }
     }
     
     public int top() {
-        return q.peek();
+       return q.peek();
     }
     
     public int getMin() {
-        return minStack.peek();
+        return minSt.peek();
     }
 }
 
