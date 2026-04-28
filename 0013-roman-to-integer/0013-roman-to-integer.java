@@ -12,16 +12,16 @@ class Solution {
         return 0;
     }
     public int romanToInt(String s) {
-        int sum=0;
-        for(int i=0; i<s.length(); i++){
-            int val=romanValue(s.charAt(i));
-            if(i+1<s.length() && val<romanValue(s.charAt(i+1))){
-                sum-=val;
-            }
-            else{
-                sum+=val;
-            }
-        }
-        return sum;
-    }
+       int sum=0;
+       for(int i=0; i<s.length(); i++){
+         char c=s.charAt(i);
+         if(i+1<s.length() && romanValue(c)<romanValue(s.charAt(i+1))){
+            sum-=romanValue(c);
+         }
+         else{
+            sum+=romanValue(c);
+         }
+       }
+       return sum; 
+    }    
 }
