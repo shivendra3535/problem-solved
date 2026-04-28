@@ -74,6 +74,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
+| [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/shivendra3535/problem-solved/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/shivendra3535/problem-solved/tree/master/0735-asteroid-collision) |
@@ -133,6 +134,7 @@
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivendra3535/problem-solved/tree/master/1004-max-consecutive-ones-iii) |
