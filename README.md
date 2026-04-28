@@ -81,6 +81,7 @@
 | [0735-asteroid-collision](https://github.com/shivendra3535/problem-solved/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/shivendra3535/problem-solved/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0875-koko-eating-bananas) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/shivendra3535/problem-solved/tree/master/0907-sum-of-subarray-minimums) |
@@ -138,6 +139,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivendra3535/problem-solved/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1011-capacity-to-ship-packages-within-d-days) |
