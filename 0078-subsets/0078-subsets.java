@@ -1,20 +1,19 @@
 class Solution {
-    public void subsets(int index,List<List<Integer>> res,List<Integer> ds,int[] nums){
+    public void subset(int nums[], int index, List<List<Integer>> res, List<Integer> ds){
         if(index>=nums.length){
             res.add(new ArrayList<>(ds));
             return;
         }
-        ds.add(nums[index]);
-        subsets(index+1, res, ds, nums);
 
+        ds.add(nums[index]);
+        subset(nums,index+1,res,ds);
         ds.remove(ds.size()-1);
-        subsets(index+1, res, ds, nums);
+        subset(nums,index+1,res,ds);
     }
     public List<List<Integer>> subsets(int[] nums) {
-        Arrays.sort(nums);
+        List<Integer> ds= new ArrayList<>();
         List<List<Integer>> res= new ArrayList<>();
-        List<Integer> ds= new ArrayList<Integer>();
-        subsets(0,res,ds,nums);
+        subset(nums,0,res,ds);
         return res;
     }
 }
