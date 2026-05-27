@@ -134,6 +134,7 @@
 | [0222-count-complete-tree-nodes](https://github.com/shivendra3535/problem-solved/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/shivendra3535/problem-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/shivendra3535/problem-solved/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
@@ -843,4 +844,8 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivendra3535/problem-solved/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/shivendra3535/problem-solved/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
