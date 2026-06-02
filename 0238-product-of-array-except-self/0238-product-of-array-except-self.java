@@ -7,9 +7,9 @@ class Solution {
             ans[i]=prefix;
             prefix*=nums[i];
         }
-        for(int j=nums.length-1; j>=0; j--){
-            ans[j]*=suffix;
-            suffix*=nums[j];
+        for(int i=nums.length-1; i>=0; i--){
+            ans[i]*=suffix;
+            suffix*=nums[i];
         }
         return ans;
     }
