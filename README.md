@@ -852,4 +852,8 @@
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/shivendra3535/problem-solved/tree/master/0278-first-bad-version) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/shivendra3535/problem-solved/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
