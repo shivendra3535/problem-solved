@@ -1,15 +1,15 @@
 class Solution {
-    public boolean isPossible(int [] weights, int days, int mid){
-        int cnt=1;
-        int cntWt=weights[0];
-        for(int i=1; i<weights.length; i++){
-            if(cntWt+weights[i]<=mid){
-                cntWt+=weights[i];
+    public boolean isPossible(int[] weights, int days, int cap){
+        int cntWt=0;
+        int cntDays=1;
+        for(int wt: weights){
+            if(cntWt+wt<=cap){
+                cntWt+=wt;
             }
             else{
-                cnt++;
-                cntWt=weights[i];
-                if(cnt>days) return false;
+                cntWt=wt;
+                cntDays++;
+                if(cntDays>days) return false;
             }
         }
         return true;
@@ -23,7 +23,7 @@ class Solution {
         }
         int ans=-1;
         while(low<=high){
-            int mid=low+(high-low)/2;
+            int mid=low+ (high-low)/2;
             if(isPossible(weights,days,mid)){
                 ans=mid;
                 high=mid-1;
