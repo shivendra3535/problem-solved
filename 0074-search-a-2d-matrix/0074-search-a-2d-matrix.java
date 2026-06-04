@@ -5,9 +5,8 @@ class Solution {
         int row=0;
         int col=n-1;
         while(row<m && col>=0){
-            int mid=(row+col)/2;
-            if(matrix[row][mid]==target) return true;
-            else if(matrix[row][mid]>target) col--;
+            if(matrix[row][col]==target) return true;
+            else if(matrix[row][col]>target) col--;
             else row++;
         }
         return false;
