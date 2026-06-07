@@ -10,9 +10,8 @@ class Solution {
         }
     }
     public int[][] updateMatrix(int[][] mat) {
-        int ans[][]= new int[mat.length][mat[0].length];
-        boolean vis[][]= new boolean[mat.length][mat[0].length];
         Queue<Pair> queue= new LinkedList<>();
+        boolean vis[][]= new boolean[mat.length][mat[0].length];
         for(int i=0; i<mat.length; i++){
             for(int j=0; j<mat[0].length; j++){
                 if(mat[i][j]==0){
@@ -21,22 +20,22 @@ class Solution {
                 }
             }
         }
-        int dir[][]={{1,0},{-1,0},{0,1},{0,-1}};
+        int dir[][]={{0,1},{0,-1},{1,0},{-1,0}};
         while(!queue.isEmpty()){
-            Pair p= queue.poll();
+            Pair p=queue.poll();
             int r=p.row;
             int c=p.col;
-            int s=p.step;
-            ans[r][c]=s;
+            int steps=p.step;
             for(int d[]: dir){
-                int nR=r+d[0];
-                int nC=c+d[1];
-                if(nR>=0 && nC>=0 && nR<mat.length && nC<mat[0].length && !vis[nR][nC]){
-                    vis[nR][nC]=true;
-                    queue.offer(new Pair(nR,nC,s+1));
+                int nr=r+d[0];
+                int nc=c+d[1];
+                if(nr<mat.length && nr>=0 && nc<mat[0].length && nc>=0 && !vis[nr][nc]){
+                    vis[nr][nc]=true;
+                    mat[nr][nc]=steps+1;
+                    queue.offer(new Pair(nr,nc,steps+1));
                 }
             }
-        }return ans;
-
+        }
+        return mat;
     }
 }
