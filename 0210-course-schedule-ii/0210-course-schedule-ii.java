@@ -1,38 +1,32 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> adj= new ArrayList<>();
-        int indegree[]= new int[numCourses];
+       List<List<Integer>> adj= new ArrayList<>();
+        Queue<Integer> queue= new LinkedList<>();
         for(int i=0; i<numCourses; i++){
             adj.add(new ArrayList<>());
         }
-        for(int e[]: prerequisites){
-            int u=e[0];
-            int v=e[1];
-            indegree[u]++;
+        int outG[]= new int[numCourses];
+        for(int p[]: prerequisites){
+            int u=p[0];
+            int v=p[1];
+            outG[u]++;
             adj.get(v).add(u);
         }
-        Queue<Integer> queue= new LinkedList<>();
-        int order[]= new int[numCourses];
-        for(int i=0; i<numCourses; i++){
-            if(indegree[i]==0){
-               queue.offer(i);
-            }
-        }
-        int i=0;
+        for(int i=0; i<numCourses; i++) if(outG[i]==0) queue.offer(i);
+        List<Integer> res= new ArrayList<>();
         while(!queue.isEmpty()){
-            int cur=queue.poll();
-            order[i++]=cur;
-            for(int a: adj.get(cur)){
-                indegree[a]--;
-                if(indegree[a]==0){
-                    queue.offer(a);
-                }
+            int node=queue.poll();
+            res.add(node);
+            for(int a: adj.get(node)){
+                outG[a]--;
+                if(outG[a]==0) queue.offer(a);
             }
         }
-       if (i != numCourses) {
-            return new int[0];
+        int[] output = new int[res.size()];
+        for (int i = 0; i < res.size(); i++) {
+           output[i] = res.get(i); 
         }
-
-        return order;
+        if(res.size() != numCourses) return new int[0];
+        return output;
     }
 }
