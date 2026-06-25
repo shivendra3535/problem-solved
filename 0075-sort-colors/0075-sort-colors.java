@@ -5,21 +5,22 @@ class Solution {
         nums[j]=temp;
     }
     public void sortColors(int[] nums) {
-        int low=0;
         int mid=0;
+        int left=0;
         int high=nums.length-1;
         while(mid<=high){
-            if(nums[mid]==1){
+            int num=nums[mid];
+            if(num==0){
+                swap(nums,left,mid);
+                left++;
                 mid++;
             }
-            else if(nums[mid]==0){
-                swap(nums,mid,low);
-                low++;
-                mid++;
+            else if(num==2){
+                swap(nums,mid,high);
+                high--;
             }
             else{
-                swap(nums,high,mid);
-                high--;
+                mid++;
             }
         }
     }
