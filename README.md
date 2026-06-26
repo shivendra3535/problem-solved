@@ -416,6 +416,7 @@
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Greedy
 |  |
 | ------- |
@@ -810,6 +811,7 @@
 | [0210-course-schedule-ii](https://github.com/shivendra3535/problem-solved/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0820-find-eventual-safe-states) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Queue
 |  |
 | ------- |
@@ -869,6 +871,7 @@
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## String Matching
 |  |
@@ -890,4 +893,5 @@
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
