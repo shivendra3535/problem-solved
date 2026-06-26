@@ -233,6 +233,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0801-is-graph-bipartite) |
@@ -269,6 +270,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
@@ -829,6 +831,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/shivendra3535/problem-solved/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
+| [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
@@ -863,6 +866,7 @@
 | [0207-course-schedule](https://github.com/shivendra3535/problem-solved/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/shivendra3535/problem-solved/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
@@ -882,4 +886,8 @@
 | [0595-big-countries](https://github.com/shivendra3535/problem-solved/tree/master/0595-big-countries) |
 | [1667-fix-names-in-a-table](https://github.com/shivendra3535/problem-solved/tree/master/1667-fix-names-in-a-table) |
 | [1873-calculate-special-bonus](https://github.com/shivendra3535/problem-solved/tree/master/1873-calculate-special-bonus) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
