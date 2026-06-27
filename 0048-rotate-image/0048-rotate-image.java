@@ -1,5 +1,5 @@
 class Solution {
-    public void transpose(int matrix[][]){
+    public void transposeReverse(int [][] matrix){
         for(int i=0; i<matrix.length; i++){
             for(int j=i+1; j<matrix[0].length; j++){
                 int temp=matrix[i][j];
@@ -7,12 +7,10 @@ class Solution {
                 matrix[j][i]=temp;
             }
         }
-    }
-    public void reverse(int matrix[][]){
         for(int i=0; i<matrix.length; i++){
             int left=0;
             int right=matrix[0].length-1;
-            while(left<right){
+            while(left<=right){
                 int temp=matrix[i][left];
                 matrix[i][left]=matrix[i][right];
                 matrix[i][right]=temp;
@@ -22,7 +20,6 @@ class Solution {
         }
     }
     public void rotate(int[][] matrix) {
-        transpose(matrix);
-        reverse(matrix);
+        transposeReverse(matrix);
     }
 }
