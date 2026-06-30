@@ -7,21 +7,21 @@ class Solution {
             this.col=col;
         }
     }
-    public void bfs(char [][]grid, int row, int col, boolean vis[][]){
-        Queue<Pair> queue= new LinkedList<>();
+    public void bfs(char [][] grid, boolean vis[][], int row, int col){
         vis[row][col]=true;
-        queue.offer(new Pair(row, col));
-        int dir[][]={{-1,0},{1,0},{0,-1},{0,1}};
+        Queue<Pair> queue= new LinkedList<>();
+        queue.offer(new Pair(row,col));
+        int dir[][]={{1,0},{-1,0},{0,1},{0,-1}};
         while(!queue.isEmpty()){
-            Pair p=queue.poll();
+            Pair p= queue.poll();
             int r=p.row;
             int c=p.col;
             for(int d[]: dir){
-                int nr=r+d[0];
-                int nc=c+d[1];
-                if(nr<grid.length && nr>=0 && nc<grid[0].length && nc>=0 && grid[nr][nc]=='1' && !vis[nr][nc]){
-                    vis[nr][nc]=true;
-                    queue.offer(new Pair(nr,nc));
+                int nR=r+d[0];
+                int nC=c+d[1];
+                if(nR>=0 && nC>=0 && nR<grid.length && nC<grid[0].length && !vis[nR][nC] && grid[nR][nC]=='1'){
+                    vis[nR][nC]=true;
+                    queue.offer(new Pair(nR,nC));
                 }
             }
         }
@@ -31,9 +31,9 @@ class Solution {
         boolean vis[][]= new boolean[grid.length][grid[0].length];
         for(int i=0; i<grid.length; i++){
             for(int j=0; j<grid[0].length; j++){
-                if(grid[i][j]=='1' && !vis[i][j]){
+                if(!vis[i][j] && grid[i][j]=='1'){
                     cnt++;
-                    bfs(grid,i,j,vis);
+                    bfs(grid,vis,i,j);
                 }
             }
         }
