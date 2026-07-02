@@ -6,7 +6,7 @@ class Solution {
         res.add(newInterval);
         for(int interval[]: intervals){
             if(interval[0]<=newInterval[1]){
-                newInterval[1]= Math.max(newInterval[1],interval[1]);
+                newInterval[1]=Math.max(interval[1],newInterval[1]);
             }
             else{
                 newInterval=interval;
