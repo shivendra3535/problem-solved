@@ -4,7 +4,8 @@ class Solution {
         int n=intervals.length;
         List<int[]> res= new ArrayList<>();
         while(i<n && intervals[i][1]<newInterval[0]){
-            res.add(intervals[i++]);
+            res.add(intervals[i]);
+            i++;
         }
         while(i<n && intervals[i][0]<=newInterval[1]){
             newInterval[0]=Math.min(newInterval[0],intervals[i][0]);
@@ -13,7 +14,8 @@ class Solution {
         }
         res.add(newInterval);
         while(i<n){
-            res.add(intervals[i++]);
+            res.add(intervals[i]);
+            i++;
         }
         return res.toArray(new int[0][]);
     }
