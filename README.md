@@ -240,6 +240,7 @@
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0820-find-eventual-safe-states) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -467,6 +468,7 @@
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shivendra3535/problem-solved/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0981-time-based-key-value-store](https://github.com/shivendra3535/problem-solved/tree/master/0981-time-based-key-value-store) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -862,6 +864,7 @@
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
@@ -875,6 +878,7 @@
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/shivendra3535/problem-solved/tree/master/0802-find-eventual-safe-states) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/shivendra3535/problem-solved/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
