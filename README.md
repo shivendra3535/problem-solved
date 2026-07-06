@@ -77,6 +77,7 @@
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/shivendra3535/problem-solved/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/shivendra3535/problem-solved/tree/master/0735-asteroid-collision) |
@@ -232,6 +233,7 @@
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
@@ -271,6 +273,7 @@
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
@@ -390,6 +393,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0981-time-based-key-value-store](https://github.com/shivendra3535/problem-solved/tree/master/0981-time-based-key-value-store) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
@@ -466,6 +470,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -598,6 +603,7 @@
 | [0436-find-right-interval](https://github.com/shivendra3535/problem-solved/tree/master/0436-find-right-interval) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -863,6 +869,7 @@
 | [0130-surrounded-regions](https://github.com/shivendra3535/problem-solved/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/shivendra3535/problem-solved/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/shivendra3535/problem-solved/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
