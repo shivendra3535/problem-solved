@@ -1,11 +1,11 @@
 class Solution {
-    public boolean isPossible(int []nums, int threshold, int d){
+    public boolean isPossible(int nums[], int threshold,int d){
         int sum=0;
         for(int n: nums){
             sum+=(n+d-1)/d;
-            if(sum>threshold) return false;
         }
-        return true;
+        if(sum<=threshold) return true;
+        return false;
     }
     public int smallestDivisor(int[] nums, int threshold) {
         int low=1;
@@ -15,7 +15,7 @@ class Solution {
         }
         int ans=-1;
         while(low<=high){
-            int mid=(low+high)>>1;
+            int mid=low+(high-low)/2;
             if(isPossible(nums,threshold,mid)){
                 ans=mid;
                 high=mid-1;
