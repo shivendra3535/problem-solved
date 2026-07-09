@@ -1,29 +1,29 @@
 class Solution {
-    public boolean isPossible(int nums[],int k, int mid){
+    public boolean isPossible(int nums[], int k, int sum){
         int cnt=1;
-        int curSum=0;
-        for(int num:nums){
-            if(curSum+num<=mid){
-                curSum+=num;
+        int curSum=nums[0];
+        for(int i=1; i<nums.length; i++){
+            if(curSum+nums[i]<=sum){
+                curSum+=nums[i];
             }
             else{
                 cnt++;
-                curSum=num;
+                curSum=nums[i];
                 if(cnt>k) return false;
             }
         }
-        return cnt<=k;
+        return true;
     }
     public int splitArray(int[] nums, int k) {
-        int low= Integer.MIN_VALUE;
+        int low=Integer.MIN_VALUE;
         int high=0;
-        for(int num: nums){
-            low=Math.max(low,num);
-            high+=num;
+        for(int n: nums){
+            low=Math.max(low,n);
+            high+=n;
         }
         int ans=-1;
         while(low<=high){
-            int mid=(low+high)>>1;
+            int mid=low+(high-low)/2;
             if(isPossible(nums,k,mid)){
                 ans=mid;
                 high=mid-1;
