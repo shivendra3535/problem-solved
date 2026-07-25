@@ -1,22 +1,15 @@
 class Solution {
-    public void generateParenthesis(String ans, int total, int open,int close, int n,List<String> res){
-        if(ans.length()==total){
-            res.add(ans);
+    public void generate(int n, int cntOpen, int cntClose, String ds, List<String> res){
+        if(ds.length()==2*n){
+            res.add(new String(ds));
             return;
         }
-        if(open<n){
-            generateParenthesis(ans+"(",total,open+1,close,n,res);
-        }
-
-        if(close<open){
-            generateParenthesis(ans+")",total,open,close+1,n,res);
-        }
+        if(cntOpen<n) generate(n,cntOpen+1, cntClose, ds+'(', res);
+        if(cntClose<n && cntOpen>cntClose) generate(n, cntOpen, cntClose+1, ds+')', res);
     }
     public List<String> generateParenthesis(int n) {
-        int total=2*n;
-        String ans="(";
         List<String> res= new ArrayList<>();
-        generateParenthesis(ans,total,1,0,n,res);
+        generate(n,1,0,"(", res);
         return res;
     }
 }
