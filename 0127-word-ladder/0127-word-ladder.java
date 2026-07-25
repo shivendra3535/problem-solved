@@ -1,10 +1,10 @@
 class Solution {
     class Pair{
-        String word;
-        int steps;
-        Pair(String word, int steps){
-            this.word=word;
-            this.steps=steps;
+        String words;
+        int len;
+        Pair(String words, int len){
+            this.words=words;
+            this.len=len;
         }
     }
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -17,17 +17,17 @@ class Solution {
         set.remove(beginWord);
         while(!queue.isEmpty()){
             Pair p=queue.poll();
-            String word=p.word;
-            int step=p.steps;
-            if(word.equals(endWord)) return step;
+            String word=p.words;
+            int cur=p.len;
+            if(word.equals(endWord)) return cur;
             for(int i=0; i<word.length(); i++){
-                for(char ch='a'; ch<='z'; ch++){
-                    char replaced[]= word.toCharArray();
-                    replaced[i]=ch;
-                    String rep= new String(replaced);
-                    if(set.contains(rep)){
-                        set.remove(rep);
-                        queue.offer(new Pair(rep,step+1));
+                for(char a='a'; a<='z'; a++){
+                    char arr[]=word.toCharArray();
+                    arr[i]=a;
+                    String word2= new String(arr);
+                    if(set.contains(word2)){
+                        queue.offer(new Pair(word2,cur+1));
+                        set.remove(word2);
                     }
                 }
             }
