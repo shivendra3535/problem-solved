@@ -25,21 +25,23 @@ class Solution {
         pq.offer(new Pair(k,0));
         while(!pq.isEmpty()){
             Pair p=pq.poll();
-            int currWt=p.wt;
             int node=p.node;
+            int wt=p.wt;
             for(Pair nei: adj.get(node)){
-                if(currWt+nei.wt<dist[nei.node]){
-                    dist[nei.node]=currWt+nei.wt;
+                if(wt+nei.wt<dist[nei.node]){
+                    dist[nei.node]=wt+nei.wt;
                     pq.offer(new Pair(nei.node,dist[nei.node]));
                 }
             }
         }
-        int max = 0;
-for (int i = 1; i <= n; i++) {
-    if (dist[i] == Integer.MAX_VALUE)
-        return -1;
-    max = Math.max(max, dist[i]);
-}
-return max;
+        int delay=Integer.MIN_VALUE;
+        for(int i=1; i<=n; i++){
+            int d=dist[i];
+            if(d==Integer.MAX_VALUE){
+                return -1;
+            }
+            delay=Math.max(delay,d);
+        }
+        return delay;
     }
 }
