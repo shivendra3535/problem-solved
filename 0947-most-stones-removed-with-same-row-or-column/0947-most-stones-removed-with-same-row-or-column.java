@@ -38,18 +38,18 @@ class Solution {
             maxCol=Math.max(maxCol,s[1]);
         }
         int n=maxRow+maxCol+2;
-        DisjointSet dj= new DisjointSet(n);
+        DisjointSet ds= new DisjointSet(n);
         HashSet<Integer> set= new HashSet<>();
         for(int s[]: stones){
-            int rowNode=s[0];
-            int colNode=s[1]+maxRow+1;
-            dj.union(rowNode,colNode);
-            set.add(rowNode);
-            set.add(colNode);
+            int row=s[0];
+            int col=s[1]+maxRow+1;
+            ds.union(row,col);
+            set.add(row);
+            set.add(col);
         }
         int cnt=0;
         for(int s: set){
-            if(dj.parent.get(s)==s) cnt++;
+            if(ds.parent.get(s)==s) cnt++;
         }
         return stones.length-cnt;
     }
