@@ -30,24 +30,23 @@ class Solution {
         }
     }
     public int largestIsland(int[][] grid) {
-        int dir[][]={{0,1},{0,-1},{1,0},{-1,0}};
         int n=grid.length;
+        int dir[][]={{1,0},{-1,0},{0,1},{0,-1}};
         int maxSize=1;
         DSU ds= new DSU(n*n);
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
                 if(grid[i][j]==1){
-                    int node=i*n+j;
                     for(int d[]: dir){
                         int nr=i+d[0];
                         int nc=j+d[1];
                         if(nr>=0 && nc>=0 && nr<n && nc<n && grid[nr][nc]==1){
+                            int node=i*n+j;
                             int adjN=nr*n+nc;
-                            if(ds.findParent(node) != ds.findParent(adjN)){
+                            if(ds.findParent(node)!=ds.findParent(adjN)){
                                 ds.union(node,adjN);
-                                int parent = ds.findParent(node);
-                                int size = ds.size.get(parent);
-                                maxSize = Math.max(maxSize, size);
+                                int size=ds.size.get(ds.findParent(node));
+                                maxSize=Math.max(maxSize,size);
                             }
                         }
                     }
@@ -58,18 +57,18 @@ class Solution {
             for(int j=0; j<n; j++){
                 if(grid[i][j]==0){
                     int cnt=1;
-                    HashSet<Integer> set = new HashSet<>();
+                    HashSet<Integer> set= new HashSet<>();
                     for(int d[]: dir){
                         int nr=i+d[0];
                         int nc=j+d[1];
                         if(nr>=0 && nc>=0 && nr<n && nc<n && grid[nr][nc]==1){
-                            set.add(ds.findParent(nr*n + nc));
+                            set.add(ds.findParent(nr*n+nc));
                         }
                     }
-                    for(int parent : set){
-                   cnt += ds.size.get(parent);
-                }
-                maxSize=Math.max(maxSize,cnt);
+                    for(int parent: set){
+                        cnt+=ds.size.get(parent);
+                    }
+                    maxSize=Math.max(maxSize,cnt);
                 }
             }
         }
