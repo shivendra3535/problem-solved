@@ -35,14 +35,14 @@ class DisjointSet{
 }
 class Solution {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        int n=accounts.size();
-        DisjointSet dj= new DisjointSet(n);
+        int n= accounts.size();
+        DisjointSet ds= new DisjointSet(n);
         HashMap<String,Integer> map= new HashMap<>();
         for(int i=0; i<n; i++){
             List<String> emails=accounts.get(i);
             for(int j=1; j<emails.size(); j++){
                 if(map.containsKey(emails.get(j))){
-                    dj.unionByRank(i,map.get(emails.get(j)));
+                    ds.unionByRank(i,map.get(emails.get(j)));
                 }
                 else{
                     map.put(emails.get(j),i);
@@ -51,15 +51,15 @@ class Solution {
         }
         HashMap<Integer,List<String>> parEm= new HashMap<>();
         for(String email: map.keySet()){
-            int account = map.get(email);
-            int parent = dj.findUPar(account);
+            int node=map.get(email);
+            int parent=ds.findUPar(node);
             if(!parEm.containsKey(parent)) parEm.put(parent,new ArrayList<>());
             parEm.get(parent).add(email);
         }
         List<List<String>> res= new ArrayList<>();
         for(int parent: parEm.keySet()){
             List<String> temp= new ArrayList<>();
-            List<String> emails=parEm.get(parent); 
+            List<String> emails=parEm.get(parent);
             Collections.sort(emails);
             temp.add(accounts.get(parent).get(0));
             temp.addAll(emails);
