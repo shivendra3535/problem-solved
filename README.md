@@ -940,4 +940,8 @@
 |  |
 | ------- |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
