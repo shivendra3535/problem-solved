@@ -565,6 +565,7 @@
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0876-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0908-middle-of-the-linked-list) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -737,6 +738,7 @@
 | [0328-odd-even-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0328-odd-even-linked-list) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0908-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Monotonic Stack
