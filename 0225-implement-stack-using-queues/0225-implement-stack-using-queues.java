@@ -7,14 +7,14 @@ class MyStack {
     public void push(int x) {
         int size=q.size();
         q.offer(x);
-        for(int i=1; i<=size; i++){
-            q.offer(q.peek());
-            q.poll();
+        for(int i=0; i<size; i++){
+            q.offer(q.poll());
         }
     }
     
     public int pop() {
-        return q.poll();
+        int val=q.poll();
+        return val;
     }
     
     public int top() {
