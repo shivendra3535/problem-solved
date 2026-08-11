@@ -956,4 +956,8 @@
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/shivendra3535/problem-solved/tree/master/1192-critical-connections-in-a-network) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/shivendra3535/problem-solved/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
