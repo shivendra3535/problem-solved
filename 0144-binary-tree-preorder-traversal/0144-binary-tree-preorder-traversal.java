@@ -20,14 +20,10 @@ class Solution {
         if(root==null) return res;
         st.push(root);
         while(!st.isEmpty()){
-            TreeNode temp=st.pop();
-            res.add(temp.val);
-            if(temp.right!=null){
-                st.push(temp.right);
-            }
-            if(temp.left!=null){
-                st.push(temp.left);
-            }
+            TreeNode curr=st.pop();
+            res.add(curr.val);
+            if(curr.right!=null) st.push(curr.right);
+            if(curr.left!=null) st.push(curr.left);
         }
         return res;
     }
