@@ -425,6 +425,7 @@
 | [0053-maximum-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shivendra3535/problem-solved/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/shivendra3535/problem-solved/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/shivendra3535/problem-solved/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shivendra3535/problem-solved/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -640,6 +641,7 @@
 | [0060-permutation-sequence](https://github.com/shivendra3535/problem-solved/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/shivendra3535/problem-solved/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/shivendra3535/problem-solved/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/shivendra3535/problem-solved/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shivendra3535/problem-solved/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/shivendra3535/problem-solved/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
@@ -689,6 +691,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/shivendra3535/problem-solved/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 ## Bit Manipulation
 |  |
