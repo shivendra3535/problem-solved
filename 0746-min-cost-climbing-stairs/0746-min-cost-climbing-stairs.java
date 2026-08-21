@@ -16,6 +16,19 @@ class Solution {
         }
         return dp[index];
     }
+
+    public int spaceOpt(int cost[],int index){
+        int next2=0;
+        int next1=0;
+        for(int i=cost.length-1; i>=index; i--){
+            int first=cost[i]+ next2;
+            int second=cost[i]+ next1;
+            int current=Math.min(first,second);
+            next2=next1;
+            next1=current;
+        }
+        return next1;
+    }
     public int minCostClimbingStairs(int[] cost) {
         /* Memoization
         int dp[]= new int[cost.length];
@@ -24,6 +37,9 @@ class Solution {
         int second=memoization(cost,1,dp);
         return Math.min(first,second); */
 
-        return Math.min(tabulation(cost,0),tabulation(cost,1));
+        /*Tabulation
+        return Math.min(tabulation(cost,0),tabulation(cost,1)); */
+
+        return Math.min(spaceOpt(cost,0),spaceOpt(cost,1));
     }
 }
