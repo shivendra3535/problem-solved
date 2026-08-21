@@ -16,6 +16,20 @@ class Solution {
         }
         return dp[0];
     }
+    public int spaceOptimization(int nums[]){
+        int n=nums.length;
+        int next2=0;
+        int next1=0;
+        for(int i=n-1; i>=0; i--){
+            int take=nums[i]+next2;
+            int notTake=next1;
+
+            int current=Math.max(take,notTake);
+            next2=next1;
+            next1=current;
+        }
+        return next1;
+    }
     public int rob(int[] nums) {
         /*int dp[]= new int[nums.length];
         Arrays.fill(dp,-1);
