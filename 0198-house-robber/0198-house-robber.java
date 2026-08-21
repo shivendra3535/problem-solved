@@ -7,10 +7,19 @@ class Solution {
         dp[index]= Math.max(take,notTake);
         return dp[index];
     }
-    public int rob(int[] nums) {
+    public int tabulation(int nums[]){
         int dp[]= new int[nums.length];
+        for(int i=nums.length-1; i>=0; i--){
+            int take= nums[i] + ((i+2>=nums.length)?0:dp[i+2]);
+            int notTake=(i+1>=nums.length)?0:dp[i+1];
+            dp[i]=Math.max(take,notTake);
+        }
+        return dp[0];
+    }
+    public int rob(int[] nums) {
+        /*int dp[]= new int[nums.length];
         Arrays.fill(dp,-1);
-        return recur(0,nums,dp);
-        
+        return recur(0,nums,dp); */
+        return tabulation(nums);
     }
 }
