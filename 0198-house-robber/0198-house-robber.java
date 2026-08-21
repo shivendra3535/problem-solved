@@ -34,6 +34,7 @@ class Solution {
         /*int dp[]= new int[nums.length];
         Arrays.fill(dp,-1);
         return recur(0,nums,dp); */
-        return tabulation(nums);
+        //return tabulation(nums);
+        return spaceOptimization(nums);
     }
 }
