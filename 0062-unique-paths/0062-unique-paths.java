@@ -31,6 +31,21 @@ class Solution {
         }
         return dp[m-1][n-1];
     }
+    public int spaceOpt(int m, int n){
+        int prev[]= new int[n];
+        for(int i=0; i<m; i++){
+            int temp[]= new int[n];
+            for(int j=0; j<n; j++){
+                if(i==0 && j==0){
+                    temp[j]=1;
+                    continue;
+                }
+                temp[j]=prev[j]+ (j>0 ? temp[j-1]:0);
+            }
+            prev=temp;
+        }
+        return prev[n-1];
+    }
     public int uniquePaths(int m, int n) {
         /*int dp[][]= new int[m][n];
         for(int i=0; i<m; i++){
@@ -38,6 +53,7 @@ class Solution {
         }
         return uniquePaths2(m-1,n-1,dp); */
 
-        return tabulation(m,n);
+        //return tabulation(m,n);
+        return spaceOpt(m,n);
     }
 }
