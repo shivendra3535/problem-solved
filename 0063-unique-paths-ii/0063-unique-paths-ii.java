@@ -18,7 +18,7 @@ class Solution {
                     dp[i][j]=0;
                     continue;
                 }
-                
+
                 if(i==0 && j==0){
                     dp[0][0]=1;
                     continue;
@@ -34,12 +34,37 @@ class Solution {
         }
         return dp[m-1][n-1];
     }
+    public int spaceOpt(int[][] obstacleGrid){
+        int m=obstacleGrid.length;
+        int n=obstacleGrid[0].length;
+        int prevDp[]= new int[n];
+        for(int i=0; i<m; i++){
+            int tempDp[]= new int[n];
+            for(int j=0; j<n; j++){
+                if(obstacleGrid[i][j]==1){
+                    tempDp[j]=0;
+                    continue;
+                }
+
+                if(i==0 && j==0){
+                    tempDp[j]=1;
+                    continue;
+                }
+                else{
+                    tempDp[j]=prevDp[j]+ (j>0 ? tempDp[j-1]:0);
+                }
+            }
+            prevDp=tempDp;
+        }
+        return prevDp[n-1];
+    }
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         /*int dp[][]= new int[obstacleGrid.length][obstacleGrid[0].length];
         for(int i=0; i<obstacleGrid.length; i++){
             Arrays.fill(dp[i],-1);
         }
         return uniquePath(obstacleGrid,obstacleGrid.length-1,obstacleGrid[0].length-1,dp); */
-        return tabulation(obstacleGrid);
+        //return tabulation(obstacleGrid);
+        return spaceOpt(obstacleGrid);
     }
 }
