@@ -30,6 +30,27 @@ class Solution {
         }
         return dp[m-1][n-1];
     }
+    public int spaceOpt(int grid[][], int m, int n){
+        int prevDp[]= new int[n];
+        for(int i=0; i<m; i++){
+            int tempDp[]= new int[n];
+            for(int j=0; j<n; j++){
+                if(i==0 && j==0){
+                    tempDp[j]=grid[i][j];
+                    continue;
+                }
+                else{
+                    int up=(int)1e9;
+                    int left=(int)1e9;
+                    if(i>0) up=prevDp[j];
+                    if(j>0) left=tempDp[j-1];
+                    tempDp[j]=grid[i][j]+Math.min(up,left);
+                }
+            }
+            prevDp=tempDp;
+        }
+        return prevDp[n-1];
+    }
     public int minPathSum(int[][] grid) {
         int m=grid.length;
         int n=grid[0].length;
@@ -38,6 +59,7 @@ class Solution {
             Arrays.fill(dp[i],-1);
         }
         return minPath(grid,grid.length-1, grid[0].length-1,dp); */
-        return tabulation(grid,m,n);
+        //return tabulation(grid,m,n);
+        return spaceOpt(grid,m,n);
     }
 }
