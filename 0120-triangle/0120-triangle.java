@@ -16,12 +16,24 @@ class Solution {
         }
         return dp[0][0];
     }
+    public int spaceOpt(List<List<Integer>> triangle, int n){
+        int nextDp[]= new int[n+1];
+        for(int i=n-1; i>=0; i--){
+            int tempDp[]= new int[n+1];
+            for(int j=0; j<triangle.get(i).size(); j++){
+                tempDp[j]=triangle.get(i).get(j)+Math.min(nextDp[j],nextDp[j+1]);
+            }
+            nextDp=tempDp;
+        }
+        return nextDp[0];
+    }
     public int minimumTotal(List<List<Integer>> triangle) {
         /*int dp[][]= new int[triangle.size()][triangle.size()];
         for(int i=0; i<triangle.size(); i++){
             Arrays.fill(dp[i],-1);
         }
         return minTot(triangle,0,0,dp);*/
-        return tabulation(triangle,triangle.size());
+        //return tabulation(triangle,triangle.size());
+        return spaceOpt(triangle,triangle.size());
     }
 }
