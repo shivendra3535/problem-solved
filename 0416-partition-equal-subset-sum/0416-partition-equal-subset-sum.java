@@ -37,6 +37,29 @@ class Solution {
         }
         return dp[n-1][target];
     }
+    public boolean spaceOpt(int nums[], int n, int target){
+        boolean prevDp[]= new boolean[target+1];
+        prevDp[0]=true;
+        if(nums[0]<=target){
+            prevDp[nums[0]]=true;
+        }
+        for(int index=1; index<n; index++){
+            boolean currDp[]= new boolean[target+1];
+            for(int tgt=1; tgt<=target; tgt++){
+                boolean notPick=prevDp[tgt];
+                
+                boolean pick = false;
+
+                if (nums[index] <= tgt) {
+                    pick = prevDp[tgt - nums[index]];
+                }
+                
+                currDp[tgt]= pick || notPick;
+            }
+            prevDp=currDp;
+        }
+        return prevDp[target];
+    }
     public boolean canPartition(int[] nums) {
         int sum=0;
         for(int n: nums){
@@ -46,6 +69,7 @@ class Solution {
         int target = sum / 2;
         /*Boolean dp[][]= new Boolean[nums.length][target+1];
         return memoization(nums,nums.length-1,sum/2,dp);*/
-        return tabulation(nums,nums.length,target);
+        //return tabulation(nums,nums.length,target);
+        return spaceOpt(nums,nums.length,target);
     }
 }
