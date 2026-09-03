@@ -76,6 +76,7 @@
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/shivendra3535/problem-solved/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/shivendra3535/problem-solved/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/shivendra3535/problem-solved/tree/master/0525-contiguous-array) |
@@ -451,6 +452,7 @@
 | [0410-split-array-largest-sum](https://github.com/shivendra3535/problem-solved/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/shivendra3535/problem-solved/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/shivendra3535/problem-solved/tree/master/0740-delete-and-earn) |
@@ -629,6 +631,7 @@
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 ## Sorting
 |  |
 | ------- |
@@ -996,10 +999,12 @@
 | ------- |
 | [0322-coin-change](https://github.com/shivendra3535/problem-solved/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/shivendra3535/problem-solved/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/shivendra3535/problem-solved/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
