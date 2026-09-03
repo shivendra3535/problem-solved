@@ -30,6 +30,26 @@ class Solution {
         }
         return dp[0][target+offset];
     }
+    public int spaceOpt(int nums[], int target, int offset){
+        int nextDp[]= new int[2*offset+1];
+        nextDp[offset]=1;
+        for(int i=nums.length-1; i>=0; i--){
+            int tempDp[]= new int[2*offset+1];
+          for(int tgt=-offset; tgt<=offset; tgt++){
+            int add=0;
+            int sub=0;
+            if(tgt-nums[i]>=-offset && tgt-nums[i]<=offset){
+              add=nextDp[tgt-nums[i]+offset];}
+
+            if(tgt+nums[i]>=-offset && tgt+nums[i]<=offset){
+              sub=nextDp[tgt+nums[i]+offset];}
+            
+            tempDp[tgt+offset]=add+sub;
+          }  
+          nextDp=tempDp;
+        }
+        return nextDp[target+offset];
+    }
     public int findTargetSumWays(int[] nums, int target) {
         int sum=0;
         for(int i=0; i<nums.length; i++){ 
@@ -43,6 +63,7 @@ class Solution {
             return 0;
         }
         //return targetSum(nums,target,0,dp,sum);
-        return tabulation(nums,target,sum);
+        //return tabulation(nums,target,sum);
+        return spaceOpt(nums,target,sum);
     }
 }
