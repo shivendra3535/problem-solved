@@ -1019,4 +1019,8 @@
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
