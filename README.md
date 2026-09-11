@@ -427,6 +427,7 @@
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0981-time-based-key-value-store](https://github.com/shivendra3535/problem-solved/tree/master/0981-time-based-key-value-store) |
+| [1092-shortest-common-supersequence](https://github.com/shivendra3535/problem-solved/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
@@ -470,6 +471,7 @@
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/shivendra3535/problem-solved/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/shivendra3535/problem-solved/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -1025,6 +1027,7 @@
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/shivendra3535/problem-solved/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/shivendra3535/problem-solved/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
