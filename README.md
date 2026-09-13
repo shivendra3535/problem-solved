@@ -1035,4 +1035,8 @@
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
