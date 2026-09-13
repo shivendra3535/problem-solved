@@ -29,10 +29,31 @@ class Solution {
         }
         return dp[n][m];
     }
+    public int spaceOpt(String s, String t){
+        int n=s.length();
+        int m=t.length();
+        int prevDp[]= new int[m+1];
+        prevDp[0]=1;
+        for(int i=1; i<=n; i++){
+            int tempDp[]= new int[m+1];
+            tempDp[0]=1;
+            for(int j=1; j<=m; j++){
+                if(s.charAt(i-1)==t.charAt(j-1)){
+                    tempDp[j]=prevDp[j-1]+prevDp[j];
+                }
+                else{
+                    tempDp[j]=prevDp[j];
+                }
+            }
+            prevDp=tempDp;
+        }
+        return prevDp[m];
+    }
     public int numDistinct(String s, String t) {
         int dp[][]= new int[s.length()][t.length()];
         for(int i=0; i<s.length(); i++) Arrays.fill(dp[i],-1);
         //return recur(s,t,s.length()-1,t.length()-1,dp);
-        return tabulation(s,t);
+        //return tabulation(s,t);
+        return spaceOpt(s,t);
     }
 }
