@@ -2,13 +2,11 @@ class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         Arrays.sort(intervals,(a,b)->Integer.compare(a[1],b[1]));
         int cnt=0;
-        int lastInterval[]=intervals[0];
+        int newInterval[]=intervals[0];
         for(int i=1; i<intervals.length; i++){
-            if(intervals[i][0]<lastInterval[1]){
-                cnt++;
-            }
+            if(newInterval[1]>intervals[i][0]) cnt++;
             else{
-                lastInterval=intervals[i];
+                newInterval=intervals[i];
             }
         }
         return cnt;
