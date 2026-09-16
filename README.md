@@ -1044,4 +1044,8 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/shivendra3535/problem-solved/tree/master/0056-merge-intervals) |
+## DP on Trees
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
