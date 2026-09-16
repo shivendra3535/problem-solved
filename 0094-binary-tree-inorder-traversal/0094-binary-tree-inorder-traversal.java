@@ -15,9 +15,9 @@
  */
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> st= new Stack<>();
         List<Integer> res= new ArrayList<>();
         if(root==null) return res;
+        Stack<TreeNode> st= new Stack<>();
         TreeNode curr=root;
         while(true){
             if(curr!=null){
