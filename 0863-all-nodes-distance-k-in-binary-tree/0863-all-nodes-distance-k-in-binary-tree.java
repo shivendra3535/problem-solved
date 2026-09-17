@@ -1,68 +1,86 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
 class Solution {
-    public void mapParents(TreeNode root,Map<TreeNode,TreeNode> map){
-        Queue<TreeNode> queue= new LinkedList<>();
-        queue.offer(root);
-        while(!queue.isEmpty()){
-            int size=queue.size();
-            for(int i=0; i<size; i++){
-                TreeNode node= queue.poll();
-                if(node.left!=null){
-                    queue.offer(node.left);
-                    map.put(node.left,node);
-                }
-                if(node.right!=null){
-                    queue.offer(node.right);
-                    map.put(node.right,node);
-                }
+
+    public void levelOrder(TreeNode root, HashMap<TreeNode, TreeNode> parent) {
+
+        if(root == null) return;
+
+        Queue<TreeNode> q = new LinkedList<>();
+
+        q.offer(root);
+        parent.put(root, null);
+
+        while(!q.isEmpty()) {
+
+            TreeNode curr = q.poll();
+
+            if(curr.left != null) {
+                parent.put(curr.left, curr);
+                q.offer(curr.left);
+            }
+
+            if(curr.right != null) {
+                parent.put(curr.right, curr);
+                q.offer(curr.right);
             }
         }
     }
-    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        Map<TreeNode,TreeNode> map= new HashMap<>();
-        mapParents(root,map);
-        List<Integer> res= new ArrayList<>();
-        if(root==null) return res;
-        Queue<TreeNode> queue= new LinkedList<>();
-        HashSet<TreeNode> set= new HashSet<>();
-        queue.offer(target);
-        set.add(target);
-        int distance=0;
-        while(!queue.isEmpty()){
-            int size= queue.size();
-            if(distance==k) break;
-            distance++;
 
-            for(int i=0; i<size; i++){
-                TreeNode node=queue.poll();
-                if(node.left!=null && !set.contains(node.left)){
-                   TreeNode left=node.left;
-                   set.add(left);
-                   queue.offer(left);
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+
+        List<Integer> res = new ArrayList<>();
+
+        if(root == null || target == null) return res;
+
+        // Step 1: Create parent map
+        HashMap<TreeNode, TreeNode> parent = new HashMap<>();
+        levelOrder(root, parent);
+
+        // Step 2: BFS starting from target
+        Queue<TreeNode> queue = new LinkedList<>();
+        HashSet<TreeNode> visited = new HashSet<>();
+
+        queue.offer(target);
+        visited.add(target);
+
+        while(!queue.isEmpty()) {
+
+            int size = queue.size();
+
+            if(k == 0) break;
+
+            for(int i = 0; i < size; i++) {
+
+                TreeNode curr = queue.poll();
+
+                // Parent
+                TreeNode par = parent.get(curr);
+
+                if(par != null && !visited.contains(par)) {
+                    visited.add(par);
+                    queue.offer(par);
                 }
-                if(node.right!=null && !set.contains(node.right)){
-                   TreeNode right=node.right;
-                   set.add(right);
-                   queue.offer(right);
+
+                // Left
+                if(curr.left != null && !visited.contains(curr.left)) {
+                    visited.add(curr.left);
+                    queue.offer(curr.left);
                 }
-                if(map.containsKey(node) && !set.contains(map.get(node))){
-                   TreeNode parent=map.get(node);
-                   set.add(parent);
-                   queue.offer(parent);
+
+                // Right
+                if(curr.right != null && !visited.contains(curr.right)) {
+                    visited.add(curr.right);
+                    queue.offer(curr.right);
                 }
             }
+
+            k--;
         }
-        while(!queue.isEmpty()){
+
+        // Nodes currently in queue are exactly distance k
+        while(!queue.isEmpty()) {
             res.add(queue.poll().val);
         }
-       return res;
+
+        return res;
     }
 }
