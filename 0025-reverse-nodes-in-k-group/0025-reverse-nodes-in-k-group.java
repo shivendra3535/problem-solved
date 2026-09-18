@@ -9,15 +9,16 @@
  * }
  */
 class Solution {
-    public ListNode kThNode(ListNode head, int k){
+    public ListNode getK(ListNode head,int k){
         ListNode temp=head;
         for(int i=1; i<k; i++){
-            if(temp==null) return null;
+            if(temp.next==null) return null;
             temp=temp.next;
         }
         return temp;
     }
-    public ListNode reverse(ListNode head){
+    public ListNode reverseList(ListNode head) {
+        if(head==null || head.next==null) return head;
         ListNode temp=head;
         ListNode prev=null;
         ListNode after;
@@ -30,27 +31,31 @@ class Solution {
         return prev;
     }
     public ListNode reverseKGroup(ListNode head, int k) {
+        if(head==null) return head;
+
         ListNode curr=head;
         ListNode prev=null;
+        ListNode after;
         while(curr!=null){
-            ListNode kth=kThNode(curr,k);
-            if(kth==null){
-                if(prev!=null){
-                    prev.next=curr;
+            ListNode kth=getK(curr,k);
+            if(kth!=null){
+                after=kth.next;
+                kth.next=null;
+                ListNode newHead=reverseList(curr);
+                if(curr==head){
+                    head=newHead;
+                    prev=curr;
                 }
-                break;
-            }
-            ListNode nextNode=kth.next;
-            kth.next=null;
-            ListNode newHead=reverse(curr);
-            if(curr==head){
-                head=newHead;
+                else{
+                    prev.next=newHead;
+                    prev=curr;
+                }
+                curr.next=after;
+                curr=curr.next;
             }
             else{
-                prev.next=newHead;
+                break;
             }
-            prev=curr;
-            curr=nextNode;
         }
         return head;
     }
