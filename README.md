@@ -1005,6 +1005,7 @@
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shivendra3535/problem-solved/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/shivendra3535/problem-solved/tree/master/0142-linked-list-cycle-ii) |
 ## Biconnected Component
 |  |
 | ------- |
