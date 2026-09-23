@@ -7,14 +7,14 @@ class Solution {
                 cnt=1;
                 ele=n;
             }
-            else if(ele==n) cnt++;
+            else if(n==ele) cnt++;
             else cnt--;
         }
         cnt=0;
         for(int n: nums){
             if(n==ele) cnt++;
         }
-        if(cnt>=nums.length/2) return ele;
+        if(cnt>nums.length/2) return ele;
         return -1;
     }
 }
