@@ -700,6 +700,7 @@
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
+| [2235-add-two-integers](https://github.com/shivendra3535/problem-solved/tree/master/2235-add-two-integers) |
 | [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
 ## Recursion
 |  |
