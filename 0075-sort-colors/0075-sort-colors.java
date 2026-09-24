@@ -5,23 +5,20 @@ class Solution {
         nums[j]=temp;
     }
     public void sortColors(int[] nums) {
-        int mid=0;
         int left=0;
-        int high=nums.length-1;
-        while(mid<=high){
-            int num=nums[mid];
-            if(num==0){
-                swap(nums,left,mid);
+        int mid=0;
+        int right=nums.length-1;
+        while(mid<=right){
+            if(nums[mid]==0){
+                swap(nums,mid,left);
+                mid++;
                 left++;
-                mid++;
             }
-            else if(num==2){
-                swap(nums,mid,high);
-                high--;
+            else if(nums[mid]==2){
+                swap(nums,mid,right);
+                right--;
             }
-            else{
-                mid++;
-            }
+            else mid++;
         }
     }
 }
