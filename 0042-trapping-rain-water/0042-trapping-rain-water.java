@@ -1,6 +1,6 @@
 class Solution {
     public int trap(int[] height) {
-        int n= height.length;
+        int n=height.length;
         int leftMax[]= new int[n];
         int rightMax[]= new int[n];
         leftMax[0]=height[0];
@@ -12,9 +12,9 @@ class Solution {
             rightMax[i]=Math.max(rightMax[i+1],height[i]);
         }
         int water=0;
-        for(int h=0; h<n; h++){
-            water+=Math.min(leftMax[h],rightMax[h])-height[h];
+        for(int i=0; i<n; i++){
+            water+=Math.min(leftMax[i],rightMax[i])-height[i];
         }
-       return water;
+        return water;
     }
 }
