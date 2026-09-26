@@ -1086,4 +1086,8 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/shivendra3535/problem-solved/tree/master/0075-sort-colors) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
