@@ -1,58 +1,47 @@
-public class Solution {
-    static void merge(int arr[],int low,int mid, int high){
-        int left=low;
-        int right=mid+1;
-        ArrayList<Integer> temp= new ArrayList<>();
-        while(left<=mid && right<=high){
-            if(arr[left]<=arr[right]){
-                temp.add(arr[left]);
-                left++;
+class Solution {
+    public void merge(int arr[],int left, int mid, int right){
+        List<Integer> temp= new ArrayList<>();
+        int l=left;
+        int r=mid+1;
+        int cnt=0;
+        while(l<=mid && r<=right){
+            if(arr[l]<=arr[r]){
+                temp.add(arr[l]);
+                l++;
             }
             else{
-                temp.add(arr[right]);
-                right++;
+                temp.add(arr[r]);
+                r++;
             }
         }
-        while(left<=mid){
-            temp.add(arr[left]);
-            left++;
-        }
-        while(right<=high){
-            temp.add(arr[right]);
-            right++;
-        }
-        for(int i=low; i<=high; i++){
-            arr[i]=temp.get(i-low);
-        }
+        
+        while(l<=mid) temp.add(arr[l++]);
+        while(r<=right) temp.add(arr[r++]);
+        
+        for(int i=left; i<=right; i++) arr[i]=temp.get(i-left); 
     }
-    static int countReverse(int nums[], int low, int high, int mid){
-        int right=mid+1;
+
+    public int cntInv(int nums[], int left, int mid, int right){
         int cnt=0;
-        for(int left=low; left<=mid; left++){
-            while(right<=high && (long)nums[left]>2L*nums[right]){
-                right++;
+        int r=mid+1;
+        for(int l=left; l<=mid; l++){
+            while(r<=right && (long)nums[l]>2L*nums[r]){
+                r++;
             }
-            cnt+=right-(mid+1);
+            cnt+=r-(mid+1);
         }
         return cnt;
     }
-    static int mergeSort(int arr[], int low, int high){
-    if(low >= high){
-        return 0;
+    public int mergeSort(int nums[], int left, int right){
+        if(left>=right) return 0;
+        int mid=(left+right)/2;
+        int cnt=0;
+        cnt+=mergeSort(nums,left,mid);
+        cnt+=mergeSort(nums,mid+1, right);
+        cnt+=cntInv(nums,left,mid,right);
+        merge(nums,left,mid,right);
+        return cnt;
     }
-    int mid = (low + high) / 2;
-    int cnt = 0;
-
-    cnt += mergeSort(arr, low, mid);
-    cnt += mergeSort(arr, mid+1, high);
-
-    // ✅ FIXED ORDER HERE
-    cnt += countReverse(arr, low, high, mid);
-
-    merge(arr, low, mid, high);
-    return cnt;
-}
-
     public int reversePairs(int[] nums) {
         return mergeSort(nums,0,nums.length-1);
     }
