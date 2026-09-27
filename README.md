@@ -396,6 +396,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/shivendra3535/problem-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
 ## String
 |  |
@@ -436,6 +437,7 @@
 | [0981-time-based-key-value-store](https://github.com/shivendra3535/problem-solved/tree/master/0981-time-based-key-value-store) |
 | [1092-shortest-common-supersequence](https://github.com/shivendra3535/problem-solved/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/shivendra3535/problem-solved/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
@@ -1090,4 +1092,8 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
