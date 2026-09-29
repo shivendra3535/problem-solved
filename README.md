@@ -131,6 +131,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shivendra3535/problem-solved/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
 | [1480-running-sum-of-1d-array](https://github.com/shivendra3535/problem-solved/tree/master/1480-running-sum-of-1d-array) |
 | [1572-matrix-diagonal-sum](https://github.com/shivendra3535/problem-solved/tree/master/1572-matrix-diagonal-sum) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/shivendra3535/problem-solved/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -506,6 +507,7 @@
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/shivendra3535/problem-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/shivendra3535/problem-solved/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2140-solving-questions-with-brainpower](https://github.com/shivendra3535/problem-solved/tree/master/2140-solving-questions-with-brainpower) |
@@ -772,6 +774,7 @@
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
 | [1572-matrix-diagonal-sum](https://github.com/shivendra3535/problem-solved/tree/master/1572-matrix-diagonal-sum) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/1901-find-a-peak-element-ii) |
