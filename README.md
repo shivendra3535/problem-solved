@@ -93,6 +93,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/shivendra3535/problem-solved/tree/master/0724-find-pivot-index) |
@@ -487,6 +488,7 @@
 | [0518-coin-change-ii](https://github.com/shivendra3535/problem-solved/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/shivendra3535/problem-solved/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/shivendra3535/problem-solved/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/shivendra3535/problem-solved/tree/master/0746-min-cost-climbing-stairs) |
@@ -793,10 +795,12 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Merge Sort
 |  |
 | ------- |
@@ -1107,6 +1111,7 @@
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0300-longest-increasing-subsequence) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Bubble Sort
 |  |
 | ------- |
