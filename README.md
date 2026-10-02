@@ -221,6 +221,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0700-search-in-a-binary-search-tree) |
@@ -265,6 +266,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
@@ -312,6 +314,7 @@
 | [0322-coin-change](https://github.com/shivendra3535/problem-solved/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
@@ -368,6 +371,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/shivendra3535/problem-solved/tree/master/0700-search-in-a-binary-search-tree) |
