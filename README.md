@@ -1178,4 +1178,8 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/shivendra3535/problem-solved/tree/master/0139-word-break) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/shivendra3535/problem-solved/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
