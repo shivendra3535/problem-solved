@@ -1,28 +1,23 @@
 class Solution {
-    public boolean isPossible(int nums[], int threshold,int d){
-        int sum=0;
+    public boolean isPossible(int nums[],int threshold, int mid){
+        long sum=0;
         for(int n: nums){
-            sum+=(n+d-1)/d;
+            sum+=(n+mid-1)/mid;
         }
-        if(sum<=threshold) return true;
-        return false;
+        return sum<=threshold;
     }
     public int smallestDivisor(int[] nums, int threshold) {
         int low=1;
-        int high=Integer.MIN_VALUE;
-        for(int n: nums){
-            high=Math.max(high,n);
-        }
+        int high=nums[0];
         int ans=-1;
+        for(int n: nums) high=Math.max(n,high);
         while(low<=high){
             int mid=low+(high-low)/2;
             if(isPossible(nums,threshold,mid)){
                 ans=mid;
                 high=mid-1;
             }
-            else{
-                low=mid+1;
-            }
+            else low=mid+1;
         }
         return ans;
     }
