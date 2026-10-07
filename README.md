@@ -314,6 +314,7 @@
 | [0210-course-schedule-ii](https://github.com/shivendra3535/problem-solved/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/shivendra3535/problem-solved/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/shivendra3535/problem-solved/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/shivendra3535/problem-solved/tree/master/0547-number-of-provinces) |
@@ -453,6 +454,7 @@
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/shivendra3535/problem-solved/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0301-remove-invalid-parentheses) |
 | [0387-first-unique-character-in-a-string](https://github.com/shivendra3535/problem-solved/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0443-string-compression](https://github.com/shivendra3535/problem-solved/tree/master/0443-string-compression) |
@@ -711,6 +713,7 @@
 | [0131-palindrome-partitioning](https://github.com/shivendra3535/problem-solved/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 ## Sorting
 |  |
