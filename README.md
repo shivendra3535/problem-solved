@@ -96,6 +96,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/shivendra3535/problem-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
@@ -177,6 +178,7 @@
 | [0436-find-right-interval](https://github.com/shivendra3535/problem-solved/tree/master/0436-find-right-interval) |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivendra3535/problem-solved/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
@@ -642,6 +644,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/shivendra3535/problem-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/shivendra3535/problem-solved/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0904-fruit-into-baskets](https://github.com/shivendra3535/problem-solved/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
@@ -681,6 +684,7 @@
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/shivendra3535/problem-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/shivendra3535/problem-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0876-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shivendra3535/problem-solved/tree/master/0908-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
@@ -745,6 +749,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/shivendra3535/problem-solved/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -1011,6 +1016,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/shivendra3535/problem-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/shivendra3535/problem-solved/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/shivendra3535/problem-solved/tree/master/0451-sort-characters-by-frequency) |
+| [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/shivendra3535/problem-solved/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
