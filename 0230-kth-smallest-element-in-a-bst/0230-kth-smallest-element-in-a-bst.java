@@ -16,8 +16,8 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         if(root==null) return -1;
-        Stack<TreeNode> st= new Stack<>();
         TreeNode curr=root;
+        Stack<TreeNode> st= new Stack<>();
         while(true){
             if(curr!=null){
                 st.push(curr);
