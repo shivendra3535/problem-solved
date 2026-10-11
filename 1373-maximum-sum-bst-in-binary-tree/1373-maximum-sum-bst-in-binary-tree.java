@@ -1,51 +1,34 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Info{
-    int min;
-    int max;
-    int sum;
-    boolean isBST;
-    Info(int min, int max, int sum, boolean isBST){
-        this.min=min;
-        this.max=max;
-        this.sum=sum;
-        this.isBST=isBST;
-    }
-}
 class Solution {
-    int MaxSum=0;
-    public Info largest(TreeNode root){
-        if(root==null) return new Info(Integer.MAX_VALUE, Integer.MIN_VALUE,0,true);
-        Info left=largest(root.left);
-        Info right=largest(root.right);
-        if(left.isBST && right.isBST && root.val>left.max && root.val<right.min){
-            MaxSum=Math.max(MaxSum,root.val+right.sum+left.sum);
-            return new Info(
-                Math.min(root.val,left.min),
-                Math.max(root.val,right.max),
-                root.val+left.sum+right.sum,
-                true
-                );
-        }
-        else{
-            return new Info(Integer.MIN_VALUE, Integer.MAX_VALUE,0,false);
+    class Info {
+        int max, min, sum, maxi;
+        boolean isBst;
+        Info(int max, int min, int sum, boolean isBst, int maxi) {
+            this.max = max; this.min = min; this.sum = sum;
+            this.isBst = isBst; this.maxi = maxi;
         }
     }
+
+    private Info maxSum(TreeNode root) {
+        if (root == null) return new Info(Integer.MIN_VALUE, Integer.MAX_VALUE, 0, true, 0);
+
+        Info left = maxSum(root.left);
+        Info right = maxSum(root.right);
+        int best = Math.max(left.maxi, right.maxi);
+
+        if (left.isBst && right.isBst && root.val > left.max && root.val < right.min) {
+            int sum = root.val + left.sum + right.sum;
+            return new Info(
+                Math.max(root.val, right.max),
+                Math.min(root.val, left.min),
+                sum,
+                true,
+                Math.max(sum, best)
+            );
+        }
+        return new Info(Integer.MAX_VALUE, Integer.MIN_VALUE, 0, false, best);
+    }
+
     public int maxSumBST(TreeNode root) {
-        Info in=largest(root);
-        return MaxSum;
+        return maxSum(root).maxi;
     }
 }
