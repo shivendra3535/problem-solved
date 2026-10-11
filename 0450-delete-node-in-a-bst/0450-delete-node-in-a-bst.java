@@ -21,33 +21,33 @@ class Solution {
     public TreeNode helper(TreeNode root){
         if(root.left==null) return root.right;
         if(root.right==null) return root.left;
-        TreeNode rightChild=root.right;
-        TreeNode leftRight=lastRight(root.left);
-        leftRight.right=rightChild;
+        TreeNode lastR=lastRight(root.left);
+        TreeNode rightC=root.right;
+        lastR.right=rightC;
         return root.left;
     }
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root==null) return null;
-        if(root.val==key) return helper(root);
-
-        TreeNode dummy=root;
-        while(root!=null){
-            if(root.val<key){
-                if(root.right!=null && root.right.val==key){
-                    root.right=helper(root.right);
+        if(root==null) return root;
+        if(root.val==key){
+            return helper(root);
+        }
+        TreeNode curr=root;
+        while(curr!=null){
+            if(curr.val>key){
+                if(curr.left!=null && curr.left.val==key){
+                    curr.left=helper(curr.left);
                     break;
                 }
-                root=root.right;
+                curr=curr.left;
             }
-            else{
-                if(root.left!=null && root.left.val==key){
-                    root.left=helper(root.left);
+            else {
+                if(curr.right!=null && curr.right.val==key){
+                    curr.right=helper(curr.right);
                     break;
                 }
-                root=root.left;
+                curr=curr.right;
             }
         }
-        return dummy;
+        return root;
     }
 }
-            
