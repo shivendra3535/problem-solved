@@ -13,38 +13,49 @@
  *     }
  * }
  */
-class BSTIterator{
-    Stack<TreeNode> st= new Stack<>();
-    boolean forward;
-    BSTIterator(TreeNode root,boolean forward){
-        this.forward=forward;
-        pushAll(root);
-    }
+class BSTIterator {
+    Stack<TreeNode> st;
+    boolean asc;
     public void pushAll(TreeNode root){
-        while(root!=null){
-            st.push(root);
-            if(forward) root=root.left;
-            else root=root.right;
+        TreeNode curr=root;
+        while(curr!=null){
+            st.push(curr);
+            if(asc==true){
+              curr=curr.left;
+            }
+            else curr=curr.right;
         }
     }
-    public int next(){
-        TreeNode node=st.pop();
-        if(forward) pushAll(node.right);
-        else pushAll(node.left);
-        return node.val;
+
+    public BSTIterator(TreeNode root, boolean asc) {
+        st=new Stack<>();
+        this.asc=asc;
+        pushAll(root);
+    }
+    
+    public int next() {
+        TreeNode nextS=st.pop();
+        if(asc==true) pushAll(nextS.right);
+        else pushAll(nextS.left);
+
+        return nextS.val;
+    }
+    
+    public boolean hasNext() {
+        return !st.isEmpty();
     }
 }
 class Solution {
+
     public boolean findTarget(TreeNode root, int k) {
-        if(root==null) return false;
-        BSTIterator l = new BSTIterator(root,true);
-        BSTIterator r = new BSTIterator(root,false);
-        int i=l.next();
-        int j=r.next();
+        BSTIterator left= new BSTIterator(root,true);
+        BSTIterator right=new BSTIterator(root,false);
+        int i=left.next();
+        int j=right.next();
         while(i<j){
             if(i+j==k) return true;
-            else if(i+j<k) i=l.next();
-            else j=r.next();
+            else if(i+j<k) i=left.next();
+            else j=right.next();
         }
         return false;
     }
