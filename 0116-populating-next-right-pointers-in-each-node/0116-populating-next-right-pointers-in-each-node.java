@@ -23,17 +23,20 @@ class Node {
 
 class Solution {
     public Node connect(Node root) {
-        if(root==null) return null;
+        if(root==null) return root;
         Queue<Node> queue= new LinkedList<>();
         queue.offer(root);
         while(!queue.isEmpty()){
-            int level=queue.size();
-            for(int i=0; i<level; i++){
-                Node p=queue.poll();
-                if(i!=level-1) p.next=queue.peek();
-
-                if(p.left!=null) queue.offer(p.left);
-                if(p.right!=null) queue.offer(p.right);
+            int size=queue.size();
+            for(int i=0; i<size; i++){
+                Node curr=queue.poll();
+                if (i == size - 1) {
+                    curr.next = null;
+                } else {
+                    curr.next = queue.peek();
+                }
+                if(curr.left!=null) queue.offer(curr.left);
+                if(curr.right!=null) queue.offer(curr.right);
             }
         }
         return root;
