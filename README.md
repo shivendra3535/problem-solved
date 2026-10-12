@@ -103,6 +103,7 @@
 | [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0704-binary-search) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/shivendra3535/problem-solved/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/shivendra3535/problem-solved/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/shivendra3535/problem-solved/tree/master/0733-flood-fill) |
@@ -534,6 +535,7 @@
 | [0583-delete-operation-for-two-strings](https://github.com/shivendra3535/problem-solved/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/shivendra3535/problem-solved/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0740-delete-and-earn](https://github.com/shivendra3535/problem-solved/tree/master/0740-delete-and-earn) |
 | [0746-min-cost-climbing-stairs](https://github.com/shivendra3535/problem-solved/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/shivendra3535/problem-solved/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -566,6 +568,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/shivendra3535/problem-solved/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/shivendra3535/problem-solved/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivendra3535/problem-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Hash Table
