@@ -126,6 +126,7 @@
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
+| [1049-last-stone-weight-ii](https://github.com/shivendra3535/problem-solved/tree/master/1049-last-stone-weight-ii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
@@ -533,6 +534,7 @@
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
+| [1049-last-stone-weight-ii](https://github.com/shivendra3535/problem-solved/tree/master/1049-last-stone-weight-ii) |
 | [1092-shortest-common-supersequence](https://github.com/shivendra3535/problem-solved/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/shivendra3535/problem-solved/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/shivendra3535/problem-solved/tree/master/1277-count-square-submatrices-with-all-ones) |
@@ -1124,11 +1126,13 @@
 | [0416-partition-equal-subset-sum](https://github.com/shivendra3535/problem-solved/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/shivendra3535/problem-solved/tree/master/0518-coin-change-ii) |
+| [1049-last-stone-weight-ii](https://github.com/shivendra3535/problem-solved/tree/master/1049-last-stone-weight-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/shivendra3535/problem-solved/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
+| [1049-last-stone-weight-ii](https://github.com/shivendra3535/problem-solved/tree/master/1049-last-stone-weight-ii) |
 ## Complete Knapsack
 |  |
 | ------- |
