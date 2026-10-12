@@ -9,62 +9,31 @@
  * }
  */
 class Solution {
-    ListNode sortedMerge(ListNode head1, ListNode head2) {
-
-        if(head1==null && head2!=null) return head2;
-        else if(head1!=null && head2==null) return head1;
-        if(head1==null || head2==null) return null;
-        
-        ListNode dummy= new ListNode(-1);
-        ListNode temp=dummy;
-        
-        ListNode i=head1;
-        ListNode j=head2;
-        
-        if(i.val<=j.val){
-            temp.next=i;
-            temp=temp.next;
-            i=i.next;
+    class Pair{
+        int val;
+        ListNode node;
+        Pair(int val, ListNode node){
+            this.val=val;
+            this.node=node;
         }
-        else{
-            temp.next=j;
-            temp=temp.next;
-            j=j.next;
-        }
-        
-        while(i!=null && j!=null){
-            if(i.val<=j.val){
-               temp.next=i;
-               temp=temp.next;
-               i=i.next;
-            }
-            else{
-                temp.next=j;
-                temp=temp.next;
-                j=j.next;
-            }
-        }
-        
-        while(i!=null){
-            temp.next=i;
-            i=i.next;
-            temp=temp.next;
-        }
-        
-        while(j!=null){
-            temp.next=j;
-            j=j.next;
-            temp=temp.next;
-        }
-        
-        return dummy.next;
     }
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length==0) return null;
-        ListNode ls=lists[0];
-        for(int i=1; i<lists.length; i++){
-            ls=sortedMerge(ls,lists[i]);
+        PriorityQueue<Pair> pq= new PriorityQueue<>((a,b)->Integer.compare(a.val,b.val));
+        for(ListNode l: lists){
+            if(l!=null){
+                pq.offer(new Pair(l.val,l));
+            }
         }
-        return ls;
+        ListNode dummy= new ListNode(-1);
+        ListNode temp=dummy;
+        while(!pq.isEmpty()){
+            Pair p=pq.poll();
+            temp.next=new ListNode(p.val);
+            temp=temp.next;
+            if(p.node.next!=null){
+                pq.offer(new Pair(p.node.next.val,p.node.next));
+            }
+        }
+        return dummy.next;
     }
 }
