@@ -114,6 +114,7 @@
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/shivendra3535/problem-solved/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/shivendra3535/problem-solved/tree/master/0827-making-a-large-island) |
+| [0860-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/shivendra3535/problem-solved/tree/master/0875-koko-eating-bananas) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0904-fruit-into-baskets](https://github.com/shivendra3535/problem-solved/tree/master/0904-fruit-into-baskets) |
@@ -572,6 +573,7 @@
 | [0455-assign-cookies](https://github.com/shivendra3535/problem-solved/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/shivendra3535/problem-solved/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/shivendra3535/problem-solved/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0860-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivendra3535/problem-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Hash Table
