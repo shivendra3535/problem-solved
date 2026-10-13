@@ -1,51 +1,53 @@
 class Solution {
-    class DSU{
+    class DS{
+        ArrayList<Integer> par= new ArrayList<>();
         ArrayList<Integer> size= new ArrayList<>();
-        ArrayList<Integer> parent= new ArrayList<>();
-        DSU(int n){
+        DS(int n){
             for(int i=0; i<n; i++){
+                par.add(i);
                 size.add(1);
-                parent.add(i);
             }
         }
-        
-        public int findParent(int node){
-            if(node==parent.get(node)) return node;
-            parent.set(node,findParent(parent.get(node)));
-            return parent.get(node);
+
+        public int findUPar(int node){
+            if(par.get(node)==node) return node;
+            int up=findUPar(par.get(node));
+            par.set(node,up);
+            return up;
         }
-        
+
         public void union(int u, int v){
-            int Upu=findParent(u);
-            int Upv= findParent(v);
-            if(Upu==Upv) return;
-            if(size.get(Upu)<size.get(Upv)){
-                parent.set(Upu,Upv);
-                size.set(Upv,size.get(Upv)+size.get(Upu));
+            int upu=findUPar(u);
+            int upv=findUPar(v);
+
+            if(upu==upv) return;
+            if(size.get(upu)>size.get(upv)){
+                par.set(upv,upu);
+                size.set(upu, size.get(upu)+size.get(upv));
             }
             else{
-                parent.set(Upv,Upu);
-                size.set(Upu,size.get(Upv)+size.get(Upu));
+                par.set(upu,upv);
+                size.set(upv, size.get(upu)+size.get(upv));
             }
         }
     }
     public int largestIsland(int[][] grid) {
-        int n=grid.length;
+        int n= grid.length;
         int dir[][]={{1,0},{-1,0},{0,1},{0,-1}};
         int maxSize=1;
-        DSU ds= new DSU(n*n);
+        DS ds= new DS(n*n);
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
                 if(grid[i][j]==1){
-                    for(int d[]: dir){
+                    for(int d[]:dir){
                         int nr=i+d[0];
                         int nc=j+d[1];
                         if(nr>=0 && nc>=0 && nr<n && nc<n && grid[nr][nc]==1){
                             int node=i*n+j;
-                            int adjN=nr*n+nc;
-                            if(ds.findParent(node)!=ds.findParent(adjN)){
-                                ds.union(node,adjN);
-                                int size=ds.size.get(ds.findParent(node));
+                            int adj=nr*n+nc;
+                            if(ds.findUPar(node)!=ds.findUPar(adj)){
+                                ds.union(node,adj);
+                                int size=ds.size.get(ds.findUPar(node));
                                 maxSize=Math.max(maxSize,size);
                             }
                         }
@@ -62,14 +64,15 @@ class Solution {
                         int nr=i+d[0];
                         int nc=j+d[1];
                         if(nr>=0 && nc>=0 && nr<n && nc<n && grid[nr][nc]==1){
-                            set.add(ds.findParent(nr*n+nc));
+                            set.add(ds.findUPar(nr*n+nc));
                         }
                     }
-                    for(int parent: set){
-                        cnt+=ds.size.get(parent);
+                    for(int par: set){
+                        cnt+=ds.size.get(par);
                     }
                     maxSize=Math.max(maxSize,cnt);
                 }
+
             }
         }
         return maxSize;
