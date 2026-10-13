@@ -1,55 +1,59 @@
 class Solution {
-    class DisjointSet{
-        ArrayList<Integer> rank= new ArrayList<>();
-        ArrayList<Integer> parent= new ArrayList<>();
-        DisjointSet(int n){
+    class DJ{
+        List<Integer> par= new ArrayList<>();
+        List<Integer> rank= new ArrayList<>();
+        DJ(int n){
             for(int i=0; i<n; i++){
+                par.add(i);
                 rank.add(0);
-                parent.add(i);
             }
         }
+
         public int findUPar(int node){
-            if(parent.get(node)==node) return node;
-            int ulp=findUPar(parent.get(node));
-            parent.set(node,ulp);
-            return parent.get(node);
+            if(node==par.get(node)) return node;
+            int up=findUPar(par.get(node));
+            par.set(node,up);
+            return up;
         }
+
         public void union(int u, int v){
-            int ulpu=findUPar(u);
-            int ulpv=findUPar(v);
-            if(ulpu==ulpv) return;
-            if(rank.get(ulpu)<rank.get(ulpv)){
-                parent.set(ulpu,ulpv);
+            int upu = findUPar(u);
+            int upv = findUPar(v);
+            int ru = rank.get(upu);
+            int rv = rank.get(upv);
+            if(upu==upv) return;
+            if(ru>rv){
+                par.set(upv,upu);
             }
-            else if(rank.get(ulpv)<rank.get(ulpu)){
-                parent.set(ulpv,ulpu);
+            else if(ru<rv){
+                par.set(upu,upv);
             }
             else{
-                parent.set(ulpu,ulpv);
-                rank.set(ulpu,rank.get(ulpu)+1);
+                par.set(upv,upu);
+                rank.set(upu,rank.get(upu)+1);
             }
         }
     }
     public int removeStones(int[][] stones) {
-        int maxRow=Integer.MIN_VALUE;
-        int maxCol=Integer.MIN_VALUE;
-        for(int s[]: stones){
-            maxRow=Math.max(maxRow,s[0]);
-            maxCol=Math.max(maxCol,s[1]);
+        int maxR=Integer.MIN_VALUE;
+        int maxC=Integer.MIN_VALUE;
+        for(int st[]: stones){
+            maxR=Math.max(maxR,st[0]);
+            maxC=Math.max(maxC,st[1]);
         }
-        int n=maxRow+maxCol+2;
-        DisjointSet ds= new DisjointSet(n);
+        int n=maxR+maxC+2;
+        DJ dj= new DJ(n);
         HashSet<Integer> set= new HashSet<>();
-        for(int s[]: stones){
-            int row=s[0];
-            int col=s[1]+maxRow+1;
-            ds.union(row,col);
+        for(int st[]: stones){
+            int row=st[0];
+            int col=st[1]+maxR+1;
+            dj.union(row,col);
             set.add(row);
             set.add(col);
         }
         int cnt=0;
         for(int s: set){
-            if(ds.parent.get(s)==s) cnt++;
+            if(dj.findUPar(s)==s) cnt++;
         }
         return stones.length-cnt;
     }
