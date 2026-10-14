@@ -256,6 +256,7 @@
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shivendra3535/problem-solved/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -317,6 +318,7 @@
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shivendra3535/problem-solved/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
@@ -369,6 +371,7 @@
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shivendra3535/problem-solved/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Tree
@@ -424,6 +427,7 @@
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shivendra3535/problem-solved/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Stack
 |  |
@@ -652,6 +656,7 @@
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/shivendra3535/problem-solved/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivendra3535/problem-solved/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/shivendra3535/problem-solved/tree/master/3005-count-elements-with-maximum-frequency) |
