@@ -464,6 +464,7 @@
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/shivendra3535/problem-solved/tree/master/2104-sum-of-subarray-ranges) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
 ## String
 |  |
 | ------- |
@@ -520,6 +521,7 @@
 | [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/shivendra3535/problem-solved/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/shivendra3535/problem-solved/tree/master/3120-count-the-number-of-special-characters-i) |
 ## Dynamic Programming
 |  |
@@ -603,6 +605,7 @@
 | [0860-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/shivendra3535/problem-solved/tree/master/0890-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/shivendra3535/problem-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -775,6 +778,7 @@
 | [0257-binary-tree-paths](https://github.com/shivendra3535/problem-solved/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/shivendra3535/problem-solved/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/shivendra3535/problem-solved/tree/master/0494-target-sum) |
+| [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
 ## Sorting
 |  |
 | ------- |
