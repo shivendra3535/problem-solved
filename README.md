@@ -254,6 +254,7 @@
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -312,6 +313,7 @@
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
@@ -361,6 +363,7 @@
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
@@ -413,6 +416,7 @@
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/shivendra3535/problem-solved/tree/master/2236-root-equals-sum-of-children) |
+| [2415-reverse-odd-levels-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Stack
 |  |
 | ------- |
