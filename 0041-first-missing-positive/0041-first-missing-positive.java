@@ -1,12 +1,14 @@
 class Solution {
     public int firstMissingPositive(int[] nums) {
-        Arrays.sort(nums);
-        int exp=1;
+        int arr[]= new int[nums.length];
         for(int n: nums){
-            if(n<exp) continue;
-            if(n==exp) exp++;
-            else break;
+            if(n>0 && n<=nums.length){
+                arr[n-1]=n;
+            }
         }
-        return exp;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]==0) return i+1;
+        }
+        return arr.length+1;
     }
 }
