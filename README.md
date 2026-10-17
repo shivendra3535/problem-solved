@@ -164,6 +164,7 @@
 | [2643-row-with-maximum-ones](https://github.com/shivendra3535/problem-solved/tree/master/2643-row-with-maximum-ones) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/shivendra3535/problem-solved/tree/master/3005-count-elements-with-maximum-frequency) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivendra3535/problem-solved/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Binary Search
 |  |
 | ------- |
@@ -667,6 +668,7 @@
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/shivendra3535/problem-solved/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/shivendra3535/problem-solved/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivendra3535/problem-solved/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -809,6 +811,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivendra3535/problem-solved/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivendra3535/problem-solved/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Math
 |  |
 | ------- |
