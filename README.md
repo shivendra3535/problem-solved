@@ -529,6 +529,7 @@
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/shivendra3535/problem-solved/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/shivendra3535/problem-solved/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
