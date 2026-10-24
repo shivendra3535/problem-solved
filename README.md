@@ -528,6 +528,7 @@
 | [1704-determine-if-string-halves-are-alike](https://github.com/shivendra3535/problem-solved/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/shivendra3535/problem-solved/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/shivendra3535/problem-solved/tree/master/2375-construct-smallest-number-from-di-string) |
+| [2409-count-days-spent-together](https://github.com/shivendra3535/problem-solved/tree/master/2409-count-days-spent-together) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/shivendra3535/problem-solved/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/shivendra3535/problem-solved/tree/master/3863-minimum-operations-to-sort-a-string) |
 ## Dynamic Programming
@@ -846,6 +847,7 @@
 | [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
 | [2235-add-two-integers](https://github.com/shivendra3535/problem-solved/tree/master/2235-add-two-integers) |
 | [2396-strictly-palindromic-number](https://github.com/shivendra3535/problem-solved/tree/master/2396-strictly-palindromic-number) |
+| [2409-count-days-spent-together](https://github.com/shivendra3535/problem-solved/tree/master/2409-count-days-spent-together) |
 ## Recursion
 |  |
 | ------- |
