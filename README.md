@@ -142,6 +142,7 @@
 | [1109-corporate-flight-bookings](https://github.com/shivendra3535/problem-solved/tree/master/1109-corporate-flight-bookings) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
+| [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/shivendra3535/problem-solved/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shivendra3535/problem-solved/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
@@ -317,6 +318,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1192-critical-connections-in-a-network](https://github.com/shivendra3535/problem-solved/tree/master/1192-critical-connections-in-a-network) |
+| [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -372,6 +374,7 @@
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
@@ -887,6 +890,7 @@
 | [1073-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivendra3535/problem-solved/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/shivendra3535/problem-solved/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
 | [1572-matrix-diagonal-sum](https://github.com/shivendra3535/problem-solved/tree/master/1572-matrix-diagonal-sum) |
@@ -1126,6 +1130,7 @@
 | [0827-making-a-large-island](https://github.com/shivendra3535/problem-solved/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/shivendra3535/problem-solved/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/shivendra3535/problem-solved/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
 | [2685-count-the-number-of-complete-components](https://github.com/shivendra3535/problem-solved/tree/master/2685-count-the-number-of-complete-components) |
