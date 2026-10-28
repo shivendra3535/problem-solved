@@ -168,6 +168,7 @@
 | [3005-count-elements-with-maximum-frequency](https://github.com/shivendra3535/problem-solved/tree/master/3005-count-elements-with-maximum-frequency) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/shivendra3535/problem-solved/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivendra3535/problem-solved/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/shivendra3535/problem-solved/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Binary Search
 |  |
 | ------- |
@@ -603,6 +604,7 @@
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/shivendra3535/problem-solved/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2140-solving-questions-with-brainpower](https://github.com/shivendra3535/problem-solved/tree/master/2140-solving-questions-with-brainpower) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivendra3535/problem-solved/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/shivendra3535/problem-solved/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Greedy
 |  |
 | ------- |
@@ -902,6 +904,7 @@
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/shivendra3535/problem-solved/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2643-row-with-maximum-ones](https://github.com/shivendra3535/problem-solved/tree/master/2643-row-with-maximum-ones) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/shivendra3535/problem-solved/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/shivendra3535/problem-solved/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Memoization
 |  |
 | ------- |
@@ -921,6 +924,7 @@
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/shivendra3535/problem-solved/tree/master/0287-find-the-duplicate-number) |
 | [1684-count-the-number-of-consistent-strings](https://github.com/shivendra3535/problem-solved/tree/master/1684-count-the-number-of-consistent-strings) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/shivendra3535/problem-solved/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Binary Indexed Tree
 |  |
 | ------- |
