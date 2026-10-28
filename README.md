@@ -69,6 +69,7 @@
 | [0213-house-robber-ii](https://github.com/shivendra3535/problem-solved/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivendra3535/problem-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/shivendra3535/problem-solved/tree/master/0216-combination-sum-iii) |
+| [0217-contains-duplicate](https://github.com/shivendra3535/problem-solved/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/shivendra3535/problem-solved/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/shivendra3535/problem-solved/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
@@ -651,6 +652,7 @@
 | [0146-lru-cache](https://github.com/shivendra3535/problem-solved/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivendra3535/problem-solved/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/shivendra3535/problem-solved/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/shivendra3535/problem-solved/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/shivendra3535/problem-solved/tree/master/0242-valid-anagram) |
@@ -813,6 +815,7 @@
 | [0148-sort-list](https://github.com/shivendra3535/problem-solved/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/shivendra3535/problem-solved/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivendra3535/problem-solved/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/shivendra3535/problem-solved/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/shivendra3535/problem-solved/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/shivendra3535/problem-solved/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
