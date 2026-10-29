@@ -147,6 +147,7 @@
 | [1254-number-of-closed-islands](https://github.com/shivendra3535/problem-solved/tree/master/1254-number-of-closed-islands) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/shivendra3535/problem-solved/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/shivendra3535/problem-solved/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1463-cherry-pickup-ii](https://github.com/shivendra3535/problem-solved/tree/master/1463-cherry-pickup-ii) |
 | [1480-running-sum-of-1d-array](https://github.com/shivendra3535/problem-solved/tree/master/1480-running-sum-of-1d-array) |
 | [1539-kth-missing-positive-number](https://github.com/shivendra3535/problem-solved/tree/master/1539-kth-missing-positive-number) |
@@ -724,6 +725,7 @@
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/shivendra3535/problem-solved/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivendra3535/problem-solved/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/shivendra3535/problem-solved/tree/master/2653-sliding-subarray-beauty) |
 ## Two Pointers
@@ -952,6 +954,7 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Linked List
 |  |
 | ------- |
@@ -1096,12 +1099,14 @@
 | [0622-design-circular-queue](https://github.com/shivendra3535/problem-solved/tree/master/0622-design-circular-queue) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/shivendra3535/problem-solved/tree/master/0239-sliding-window-maximum) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1115,6 +1120,7 @@
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/shivendra3535/problem-solved/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
