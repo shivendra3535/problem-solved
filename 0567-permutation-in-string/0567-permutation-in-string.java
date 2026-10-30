@@ -1,8 +1,6 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        int l1=s1.length();
-        int l2=s2.length();
-        if(l1>l2) return false;
+        if(s1.length()>s2.length()) return false;
         int freq1[]= new int[26];
         int freq2[]= new int[26];
         for(char c: s1.toCharArray()){
@@ -15,21 +13,26 @@ class Solution {
         int cur=0;
         int right=0;
         int left=0;
-        while(right<l1){
-            freq2[s2.charAt(right)-'a']++;
-            if(freq1[s2.charAt(right)-'a']==freq2[s2.charAt(right)-'a']) cur++;
+        while(right<s1.length()){
+            int idR=s2.charAt(right)-'a';
+            freq2[idR]++;
+            if(freq1[idR]==freq2[idR]) cur++;
             right++;
         }
-        if(cur==req) return true;
-        while(right<l2){
-            freq2[s2.charAt(right)-'a']++;
-            if(freq1[s2.charAt(right)-'a']==freq2[s2.charAt(right)-'a']) cur++;
-        
-            if(freq1[s2.charAt(left)-'a']==freq2[s2.charAt(left)-'a']) cur--;
-            freq2[s2.charAt(left)-'a']--;
-            if(cur==req) return true;
-            right++;
+        if(req==cur) return true;
+        while(right<s2.length()){
+            int idR=s2.charAt(right)-'a';
+            freq2[idR]++;
+            if(freq1[idR]==freq2[idR]) cur++;
+
+            int idL=s2.charAt(left)-'a';
+            if(freq1[idL]==freq2[idL]){
+                cur--;
+            }
+            freq2[idL]--;
+            if(req==cur) return true;
             left++;
+            right++;
         }
         return false;
     }
