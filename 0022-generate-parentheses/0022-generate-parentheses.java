@@ -1,16 +1,20 @@
 class Solution {
-    public void recur(int n, List<String>res, String ds, int cntOpen, int cntClose){
+    public void generate(int n, int cntOp, int cntClose, String ds, List<String> res){
         if(ds.length()==2*n){
             res.add(new String(ds));
             return;
         }
+        if(cntOp<n){
+            generate(n,cntOp+1,cntClose,ds+"(",res);
+        }
 
-        if(cntOpen<n) recur(n,res,ds+"(",cntOpen+1,cntClose);
-        if(cntClose <n && cntClose<cntOpen) recur(n,res,ds+")",cntOpen,cntClose+1);
+        if(cntClose<cntOp && cntClose<n){
+            generate(n,cntOp,cntClose+1,ds+")",res);
+        }
     }
     public List<String> generateParenthesis(int n) {
         List<String> res= new ArrayList<>();
-        recur(n,res,"(",1,0);
+        generate(n,1,0,"(",res);
         return res;
     }
 }
