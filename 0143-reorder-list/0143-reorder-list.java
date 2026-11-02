@@ -1,39 +1,45 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public ListNode reverse(ListNode head) {
-        ListNode prev = null;
-
-        while (head != null) {
-            ListNode next = head.next;
-            head.next = prev;
-            prev = head;
-            head = next;
+    public ListNode reverseList(ListNode head) {
+        if(head==null || head.next==null) return head;
+        ListNode prev=null;
+        ListNode temp=head;
+        while(temp!=null){
+            ListNode after=temp.next;
+            temp.next=prev;
+            prev=temp;
+            temp=after;
         }
-
         return prev;
     }
-
     public void reorderList(ListNode head) {
-        if (head == null || head.next == null) return;
-
-        ListNode slow = head, fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        if(head==null || head.next==null) return;
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
         }
-              
-        ListNode t1 = head;
-        ListNode t2 = slow.next;
-        slow.next=null; 
-        t2=reverse(t2);
-        while (t2 != null) {
-            ListNode next1 = t1.next;
-            ListNode next2 = t2.next;
-
-            t1.next = t2;
-            t2.next = next1;
-
-            t1 = next1;
-            t2 = next2;
+        ListNode s1=head;
+        ListNode s2=reverseList(slow.next);
+        slow.next = null;
+        
+        while(s1!=null && s2!=null){
+            ListNode s1Next=s1.next;
+            ListNode s2Next=s2.next;
+            s2.next=s1Next;
+            s1.next=s2;
+            s2=s2Next;
+            s1=s1Next;
         }
     }
 }
