@@ -1,89 +1,72 @@
 class LRUCache {
-
-    class Node {
+    int capacity;
+    class Node{
         int key;
-        int value;
+        int val;
         Node prev;
         Node next;
-
-        Node(int k, int v) {
-            key = k;
-            value = v;
+        Node(int key, int val){
+            this.key=key;
+            this.val=val;
         }
     }
-
-    private int capacity;
-
-    private Map<Integer, Node> map;
-
-    private Node head;
-    private Node tail;
-
+    HashMap<Integer, Node> lruMap;
+    Node head;
+    Node tail;
     public LRUCache(int capacity) {
-
-        this.capacity = capacity;
-
-        map = new HashMap<>();
-
-        head = new Node(0, 0);
-        tail = new Node(0, 0);
-
-        head.next = tail;
-        tail.prev = head;
+        this.capacity=capacity;
+        lruMap=new HashMap<>();
+        head=new Node(-1,-1);
+        tail=new Node(-1,-1);
+        head.next=tail;
+        tail.prev=head;
     }
-
-    private void remove(Node node) {
-
-        node.prev.next = node.next;
-
-        node.next.prev = node.prev;
-    }
-
-    private void insert(Node node) {
-
-        node.next = head.next;
-
-        node.prev = head;
-
-        head.next.prev = node;
-
-        head.next = node;
-    }
-
+    
     public int get(int key) {
-
-        if (!map.containsKey(key))
-            return -1;
-
-        Node node = map.get(key);
-
-        remove(node);
-
-        insert(node);
-
-        return node.value;
+        if(!lruMap.containsKey(key)) return -1;
+        Node curr=lruMap.get(key);
+        curr.prev.next=curr.next;
+        if(curr.next!=null) curr.next.prev=curr.prev;
+        curr.next=head.next;
+        if(head.next!=null) head.next.prev=curr;
+        head.next=curr;
+        curr.prev=head;
+        return curr.val;
     }
-
+    
     public void put(int key, int value) {
+        if(!lruMap.containsKey(key)){
+            Node newNode=new Node(key,value);
+            newNode.next=head.next;
+            if(head.next!=null){
+                head.next.prev=newNode;
+            }
+            head.next=newNode;
+            newNode.prev=head;
+            lruMap.put(key, newNode);
+        }
+        else{
+            Node curr=lruMap.get(key);
+            curr.val=value;
 
-        if (map.containsKey(key)) {
-
-            remove(map.get(key));
+            curr.prev.next=curr.next;
+            if(curr.next!=null) curr.next.prev=curr.prev;
+            curr.next=head.next;
+            if(head.next!=null) head.next.prev=curr;
+            head.next=curr;
+            curr.prev=head;
         }
 
-        Node node = new Node(key, value);
-
-        insert(node);
-
-        map.put(key, node);
-
-        if (map.size() > capacity) {
-
-            Node lru = tail.prev;
-
-            remove(lru);
-
-            map.remove(lru.key);
+        if(lruMap.size()>capacity){
+            Node lastNode=tail.prev;
+            Node secondLast=tail.prev.prev;
+            if(secondLast!=null) secondLast.next=tail;
+            tail.prev=secondLast;
+            if(lastNode!=null){
+                lastNode.next=null;
+                lastNode.prev=null;
+            }
+            lruMap.remove(lastNode.key);
         }
     }
 }
