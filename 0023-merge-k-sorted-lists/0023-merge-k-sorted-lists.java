@@ -18,21 +18,20 @@ class Solution {
         }
     }
     public ListNode mergeKLists(ListNode[] lists) {
-        PriorityQueue<Pair> pq= new PriorityQueue<>((a,b)->Integer.compare(a.val,b.val));
-        for(ListNode l: lists){
-            if(l!=null){
-                pq.offer(new Pair(l.val,l));
+        if(lists.length==1) return lists[0];
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.val, b.val));
+        for(ListNode node: lists){
+            if(node!=null){
+                pq.offer(new Pair(node.val,node));
             }
         }
         ListNode dummy= new ListNode(-1);
         ListNode temp=dummy;
         while(!pq.isEmpty()){
             Pair p=pq.poll();
-            temp.next=new ListNode(p.val);
+            temp.next=p.node;
             temp=temp.next;
-            if(p.node.next!=null){
-                pq.offer(new Pair(p.node.next.val,p.node.next));
-            }
+            if(p.node.next!=null) pq.offer(new Pair(p.node.next.val,p.node.next));
         }
         return dummy.next;
     }
