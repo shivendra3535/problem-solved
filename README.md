@@ -1272,6 +1272,7 @@
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/shivendra3535/problem-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0337-house-robber-iii](https://github.com/shivendra3535/problem-solved/tree/master/0337-house-robber-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0543-diameter-of-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Binary Lifting
 |  |
