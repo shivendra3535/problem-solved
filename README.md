@@ -128,6 +128,7 @@
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0930-binary-subarrays-with-sum](https://github.com/shivendra3535/problem-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/shivendra3535/problem-solved/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/shivendra3535/problem-solved/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/0994-rotting-oranges) |
@@ -797,6 +798,7 @@
 | [0493-reverse-pairs](https://github.com/shivendra3535/problem-solved/tree/master/0493-reverse-pairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/shivendra3535/problem-solved/tree/master/0954-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 ## Backtracking
 |  |
 | ------- |
@@ -843,6 +845,7 @@
 | [0658-find-k-closest-elements](https://github.com/shivendra3535/problem-solved/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/shivendra3535/problem-solved/tree/master/0721-accounts-merge) |
 | [0853-car-fleet](https://github.com/shivendra3535/problem-solved/tree/master/0853-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/shivendra3535/problem-solved/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
@@ -869,6 +872,7 @@
 | [0231-power-of-two](https://github.com/shivendra3535/problem-solved/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/shivendra3535/problem-solved/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/shivendra3535/problem-solved/tree/master/0368-largest-divisible-subset) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 | [1013-fibonacci-number](https://github.com/shivendra3535/problem-solved/tree/master/1013-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivendra3535/problem-solved/tree/master/1248-count-number-of-nice-subarrays) |
 | [1922-count-good-numbers](https://github.com/shivendra3535/problem-solved/tree/master/1922-count-good-numbers) |
@@ -1132,6 +1136,7 @@
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/shivendra3535/problem-solved/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/shivendra3535/problem-solved/tree/master/1046-last-stone-weight) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
@@ -1335,6 +1340,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivendra3535/problem-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/shivendra3535/problem-solved/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
@@ -1347,4 +1353,12 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/shivendra3535/problem-solved/tree/master/0572-subtree-of-another-tree) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/shivendra3535/problem-solved/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
