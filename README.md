@@ -136,6 +136,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/shivendra3535/problem-solved/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/shivendra3535/problem-solved/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/shivendra3535/problem-solved/tree/master/1036-rotting-oranges) |
+| [1046-last-stone-weight](https://github.com/shivendra3535/problem-solved/tree/master/1046-last-stone-weight) |
 | [1048-longest-string-chain](https://github.com/shivendra3535/problem-solved/tree/master/1048-longest-string-chain) |
 | [1049-last-stone-weight-ii](https://github.com/shivendra3535/problem-solved/tree/master/1049-last-stone-weight-ii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/shivendra3535/problem-solved/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -1131,6 +1132,7 @@
 | [0743-network-delay-time](https://github.com/shivendra3535/problem-solved/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/shivendra3535/problem-solved/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/shivendra3535/problem-solved/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1046-last-stone-weight](https://github.com/shivendra3535/problem-solved/tree/master/1046-last-stone-weight) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivendra3535/problem-solved/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1631-path-with-minimum-effort](https://github.com/shivendra3535/problem-solved/tree/master/1631-path-with-minimum-effort) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/shivendra3535/problem-solved/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
