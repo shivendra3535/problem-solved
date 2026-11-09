@@ -1,6 +1,6 @@
 class KthLargest {
-    PriorityQueue<Integer> pq= new PriorityQueue<>();
     int k;
+    PriorityQueue<Integer> pq= new PriorityQueue<>((a,b)->Integer.compare(a,b));
     public KthLargest(int k, int[] nums) {
         this.k=k;
         for(int n: nums){
